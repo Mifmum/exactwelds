@@ -2,7 +2,6 @@ import React from 'react';
 import { Phone, MapPin, Clock, ShieldCheck } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { QuoteForm } from '../components/forms/QuoteForm';
-import { SpecPlate } from '../components/ui/SpecPlate';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
 

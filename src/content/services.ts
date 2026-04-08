@@ -8,7 +8,6 @@ export const services = [
       'On-site heavy equipment bucket and arm crack repair',
       'Fixed structure and agricultural equipment maintenance'
     ],
-    specs: 'SMAW / FCAW / GMAW Process Compatibility',
     image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900&sat=-100'
   },
   {
@@ -20,7 +19,6 @@ export const services = [
       'Jack, coupler, and safety chain installation',
       'Deck replacement and cross-member reinforcement'
     ],
-    specs: 'A36 Carbon Steel / Aluminum 6061-T6',
     image: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?w=900&sat=-100'
   },
   {
@@ -32,7 +30,6 @@ export const services = [
       'Custom toolbox, rack, and bumper mounts',
       'Rust repair and body panel replacement'
     ],
-    specs: 'TIG / MIG Certified',
     image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&sat=-100'
   },
   {
@@ -44,7 +41,6 @@ export const services = [
       'Wear plate and cutting edge replacement',
       'Hydraulic cylinder mount repair'
     ],
-    specs: 'Hardox / AR400 / AR500',
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&sat=-100'
   },
   {
@@ -56,7 +52,6 @@ export const services = [
       'Aluminum trailer and utility body work',
       'Custom aluminum bracket fabrication'
     ],
-    specs: '5052 / 6061 / 6063 Alloys',
     image: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=900&sat=-100'
   },
   {
@@ -68,7 +63,6 @@ export const services = [
       'Architectural railings and guards',
       'Chemical-resistant enclosures'
     ],
-    specs: '304 / 316 / 316L Grades',
     image: 'https://images.unsplash.com/photo-1563089145-599997674d42?w=900&sat=-100'
   },
   {
@@ -80,7 +74,6 @@ export const services = [
       'Specialized industrial tooling and workstations',
       'Marine-grade components and mounting solutions'
     ],
-    specs: 'High Precision CNC Prep / GTAW Expert Finish',
     image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900&sat=-100'
   },
   {
@@ -92,7 +85,6 @@ export const services = [
       'Handrails and guard rails to OSHA spec',
       'Decorative fence and ornamental work'
     ],
-    specs: 'Powder-Coat Ready Finish',
     image: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?w=900&sat=-100'
   },
   {
@@ -104,7 +96,6 @@ export const services = [
       'Precision hole drilling and reaming',
       'On-site modification and fitting'
     ],
-    specs: 'Up to 2.5" Plate Capacity',
     image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&sat=-100'
   }
 ];

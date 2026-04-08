@@ -4,7 +4,6 @@ import { Check } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { generateServicesSchema } from '../lib/schema';
 import { Button, buttonVariants } from '../components/ui/Button';
-import { SpecPlate } from '../components/ui/SpecPlate';
 import { Tag } from '../components/ui/Tag';
 import { services } from '../content/services';
 import { NAP } from '../content/nap';
@@ -107,8 +106,6 @@ export function Services() {
                             </li>
                           ))}
                         </ul>
-
-                        <SpecPlate label="SPECS" value={service.specs} className="mb-10" />
 
                         <Link to={`/quote?service=${service.id}`} className={buttonVariants({ variant: 'primary' })}>
                           GET A QUOTE FOR {service.title.split(' ')[0]}

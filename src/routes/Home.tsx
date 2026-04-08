@@ -105,10 +105,6 @@ export function Home() {
                 <p className="body-base text-on-surface-variant mb-8 flex-1">
                   Structural repairs, axle work, and gate hinges for utility and equipment trailers.
                 </p>
-                <div className="mt-auto border-t border-outline-variant/30 pt-4 flex items-center gap-2">
-                  <span className="text-label text-on-surface-variant">SPECS:</span>
-                  <span className="mono-sm text-on-background">ASTM D1.1</span>
-                </div>
               </Card>
             </Link>
             
@@ -118,10 +114,6 @@ export function Home() {
                 <p className="body-base text-on-surface-variant mb-8 flex-1">
                   Chassis reinforcement, custom racks, fabrication for fleets.
                 </p>
-                <div className="mt-auto border-t border-outline-variant/30 pt-4 flex items-center gap-2">
-                  <span className="text-label text-on-surface-variant">SPECS:</span>
-                  <span className="mono-sm text-on-background">TIG/MIG</span>
-                </div>
               </Card>
             </Link>
 
@@ -131,10 +123,6 @@ export function Home() {
                 <p className="body-base text-on-surface-variant mb-8 flex-1">
                   Hardfacing and structural repair for excavators, buckets, and industrial tools.
                 </p>
-                <div className="mt-auto border-t border-outline-variant/30 pt-4 flex items-center gap-2">
-                  <span className="text-label text-on-surface-variant">SPECS:</span>
-                  <span className="mono-sm text-on-background">HEAVY DUTY</span>
-                </div>
               </Card>
             </Link>
 
@@ -144,10 +132,6 @@ export function Home() {
                 <p className="body-base text-on-surface-variant mb-8 flex-1">
                   Custom ornamental ironwork and security gate repairs with precision finishing.
                 </p>
-                <div className="mt-auto border-t border-outline-variant/30 pt-4 flex items-center gap-2">
-                  <span className="text-label text-on-surface-variant">SPECS:</span>
-                  <span className="mono-sm text-on-background">CUSTOM</span>
-                </div>
               </Card>
             </Link>
 
@@ -157,10 +141,6 @@ export function Home() {
                 <p className="body-base text-on-surface-variant mb-8 flex-1">
                   Precision components for industrial installations and specialized storage solutions.
                 </p>
-                <div className="mt-auto border-t border-outline-variant/30 pt-4 flex items-center gap-2">
-                  <span className="text-label text-on-surface-variant">SPECS:</span>
-                  <span className="mono-sm text-on-background">1/8" - 1" STEEL</span>
-                </div>
               </Card>
             </Link>
 
@@ -170,10 +150,6 @@ export function Home() {
                 <p className="body-base text-on-surface-variant mb-8 flex-1">
                   From blueprint to reality. We build unique metal solutions tailored to your specs.
                 </p>
-                <div className="mt-auto border-t border-outline-variant/30 pt-4 flex items-center gap-2">
-                  <span className="text-label text-on-surface-variant">SPECS:</span>
-                  <span className="mono-sm text-on-background">EXACT WELDS</span>
-                </div>
               </Card>
             </Link>
           </div>
@@ -185,8 +161,8 @@ export function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&sat=-100" 
-                  alt="Residential welding" 
+                  src="https://images.unsplash.com/photo-1504222490345-c075b6008014?w=900&sat=-100" 
+                  alt="Welder working in a home garage" 
                   className="w-full h-[500px] object-cover rounded-sm"
                   loading="lazy"
                   referrerPolicy="no-referrer"
@@ -204,8 +180,8 @@ export function Home() {
 
               <div className="relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1565043666747-69f6646db940?w=900&sat=-100" 
-                  alt="Commercial welding" 
+                  src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900&sat=-100" 
+                  alt="Industrial welder working in a shop" 
                   className="w-full h-[500px] object-cover rounded-sm"
                   loading="lazy"
                   referrerPolicy="no-referrer"
@@ -227,35 +203,17 @@ export function Home() {
         {/* Proof Block - Dark Panel */}
         <section className="bg-dark-panel py-20 lg:py-32 text-on-dark-panel">
           <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <div>
+            <div className="grid grid-cols-1 gap-16 items-center">
+              <div className="text-center">
                 <span className="text-label text-primary block mb-4">THE EXACT DIFFERENCE</span>
                 <h2 className="display-lg uppercase mb-8">BUILT ON TECHNICAL PRECISION</h2>
                 <p className="body-lg text-on-surface-variant mb-10">
                   Founded by Zack, Exact Welds is built on a foundation of rigorous technical standards and a commitment to American craftsmanship. We don't just patch things up; we ensure every joint and bead meets the highest industrial specifications.
                 </p>
-                <Link to="/about" className="inline-flex items-center gap-2 text-on-dark-panel hover:text-primary transition-colors font-sans font-bold uppercase tracking-wide">
+                <Link to="/about" className="inline-flex items-center justify-center gap-2 text-on-dark-panel hover:text-primary transition-colors font-sans font-bold uppercase tracking-wide">
                   <ShieldCheck size={20} className="text-primary" />
                   FULLY INSURED & BBB CERTIFIED
-                  <span className="ml-2">→</span>
                 </Link>
-              </div>
-              <div className="relative group cursor-pointer">
-                <img 
-                  src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=900&sat=-100" 
-                  alt="Welding video thumbnail" 
-                  className="w-full h-[400px] object-cover rounded-sm opacity-80 group-hover:opacity-100 transition-opacity"
-                  loading="lazy"
-                  referrerPolicy="no-referrer"
-                />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-20 h-20 bg-primary text-on-primary rounded-full flex items-center justify-center shadow-raised group-hover:scale-110 transition-transform">
-                    <Play size={32} className="ml-2" />
-                  </div>
-                </div>
-                <div className="absolute top-6 right-6 bg-primary text-on-primary px-4 py-2 text-label rounded-sm shadow-card">
-                  WATCH US WORK
-                </div>
               </div>
             </div>
           </div>

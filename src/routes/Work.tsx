@@ -104,8 +104,6 @@ export function Work() {
                   <div className="absolute top-0 left-0 right-0 h-0 bg-primary transition-all duration-300 group-hover:h-[2px]" />
                   <h3 className="display-sm uppercase mb-2">{project.title}</h3>
                   <div className="mt-auto pt-4 flex items-center gap-2">
-                    <span className="mono-sm text-on-surface-variant">Project #{project.id}</span>
-                    <span className="text-on-surface-variant">•</span>
                     <span className="mono-sm text-on-surface-variant">{project.descriptor}</span>
                   </div>
                 </div>
@@ -119,7 +117,7 @@ export function Work() {
           <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
             <div className="bg-surface-container-lowest p-8 lg:p-16 rounded-sm shadow-card flex flex-col lg:flex-row items-center justify-between gap-8">
               <div className="max-w-xl text-center lg:text-left">
-                <h2 className="display-md uppercase mb-4">HAVE A PROJECT LIKE THIS?</h2>
+                <h2 className="display-md uppercase mb-4">NEED WORK LIKE THIS?</h2>
                 <p className="body-base text-on-surface-variant">
                   Our team delivers technical precision for industrial, commercial, and custom fabrication needs. Let's build something durable.
                 </p>
@@ -164,7 +162,6 @@ export function Work() {
               <div className="mb-8">
                 <Tag variant="primary" className="mb-4">{selectedProject.material}</Tag>
                 <h2 className="display-sm uppercase mb-2">{selectedProject.title}</h2>
-                <div className="mono-sm text-on-surface-variant">Project #{selectedProject.id}</div>
               </div>
               
               <div className="space-y-6 mb-12 flex-1">
@@ -190,7 +187,7 @@ export function Work() {
 
               <div className="pt-8 border-t border-outline-variant/30 mt-auto">
                 <Link to={`/quote?ref=${selectedProject.id}`} className={cn(buttonVariants({ variant: 'primary' }), "w-full text-center")}>
-                  HAVE A PROJECT LIKE THIS?
+                  NEED WORK LIKE THIS?
                 </Link>
               </div>
             </div>
