@@ -41,7 +41,7 @@ export const services = [
       'Wear plate and cutting edge replacement',
       'Hydraulic cylinder mount repair'
     ],
-    image: '/gallery/equipment-placeholder.jpg'
+    image: '/gallery/skid-steer.jpg'
   },
   {
     id: 'aluminum-welding',
@@ -52,7 +52,7 @@ export const services = [
       'Aluminum trailer and utility body work',
       'Custom aluminum bracket fabrication'
     ],
-    image: '/gallery/aluminum-placeholder.jpg'
+    image: '/gallery/aluminum-fabrication.jpg'
   },
   {
     id: 'stainless-steel',
@@ -74,7 +74,7 @@ export const services = [
       'Specialized industrial tooling and workstations',
       'Marine-grade components and mounting solutions'
     ],
-    image: '/gallery/metal-gate-placeholder2.jpg'
+    image: '/gallery/plate-weld-1.jpg'
   },
   {
     id: 'railings-gates',
@@ -85,7 +85,7 @@ export const services = [
       'Handrails and guard rails to OSHA spec',
       'Decorative fence and ornamental work'
     ],
-    image: '/gallery/metal-gate-placeholder.jpg'
+    image: '/gallery/handrail.jpg'
   },
   {
     id: 'cutting-drilling',
@@ -96,6 +96,6 @@ export const services = [
       'Precision hole drilling and reaming',
       'On-site modification and fitting'
     ],
-    image: '/gallery/drilling-placeholder.jpg'
+    image: '/gallery/truck-bumper-broken.jpg'
   }
 ];
