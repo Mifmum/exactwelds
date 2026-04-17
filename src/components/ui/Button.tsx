@@ -20,7 +20,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     return (
       <button
         ref={ref}
-        className={buttonVariants({ variant, className })}
+        className={buttonVariants({ variant: variant as 'primary' | 'secondary' | 'tertiary', className })}
         {...props}
       />
     );

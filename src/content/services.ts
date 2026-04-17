@@ -8,7 +8,7 @@ export const services = [
       'On-site heavy equipment bucket and arm crack repair',
       'Fixed structure and agricultural equipment maintenance'
     ],
-    image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900&sat=-100'
+    image: 'https://images.unsplash.com/photo-1531986346695-48fb3d267429?w=900'
   },
   {
     id: 'trailer-repair',
@@ -19,7 +19,7 @@ export const services = [
       'Jack, coupler, and safety chain installation',
       'Deck replacement and cross-member reinforcement'
     ],
-    image: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?w=900&sat=-100'
+    image: 'https://images.unsplash.com/photo-1590476718213-9460233369da?w=900'
   },
   {
     id: 'truck-vehicle',
@@ -30,7 +30,7 @@ export const services = [
       'Custom toolbox, rack, and bumper mounts',
       'Rust repair and body panel replacement'
     ],
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&sat=-100'
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d65753e?w=900'
   },
   {
     id: 'equipment-machinery',
@@ -41,7 +41,7 @@ export const services = [
       'Wear plate and cutting edge replacement',
       'Hydraulic cylinder mount repair'
     ],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&sat=-100'
+    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=900'
   },
   {
     id: 'aluminum-welding',
@@ -52,7 +52,7 @@ export const services = [
       'Aluminum trailer and utility body work',
       'Custom aluminum bracket fabrication'
     ],
-    image: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=900&sat=-100'
+    image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=900'
   },
   {
     id: 'stainless-steel',
@@ -63,7 +63,7 @@ export const services = [
       'Architectural railings and guards',
       'Chemical-resistant enclosures'
     ],
-    image: 'https://images.unsplash.com/photo-1563089145-599997674d42?w=900&sat=-100'
+    image: 'https://images.unsplash.com/photo-1516216628859-9bccecad13fc?w=900'
   },
   {
     id: 'custom-fabrication',
@@ -74,7 +74,7 @@ export const services = [
       'Specialized industrial tooling and workstations',
       'Marine-grade components and mounting solutions'
     ],
-    image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900&sat=-100'
+    image: 'https://images.unsplash.com/photo-1534774592507-488885376ad3?w=900'
   },
   {
     id: 'railings-gates',
@@ -85,7 +85,7 @@ export const services = [
       'Handrails and guard rails to OSHA spec',
       'Decorative fence and ornamental work'
     ],
-    image: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?w=900&sat=-100'
+    image: 'https://images.unsplash.com/photo-1618346136472-090de27fe8b4?w=900'
   },
   {
     id: 'cutting-drilling',
@@ -96,6 +96,6 @@ export const services = [
       'Precision hole drilling and reaming',
       'On-site modification and fitting'
     ],
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&sat=-100'
+    image: 'https://images.unsplash.com/photo-1582234372722-50d7ccc30ebd?w=900'
   }
 ];

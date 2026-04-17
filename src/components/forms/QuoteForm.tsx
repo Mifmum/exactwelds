@@ -33,7 +33,7 @@ export function QuoteForm() {
     control,
     formState: { errors },
     setValue
-  } = useHookForm<QuoteFormValues>({
+  } = useForm<QuoteFormValues>({
     resolver: zodResolver(quoteSchema),
     defaultValues: {
       website: ''
