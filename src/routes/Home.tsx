@@ -8,6 +8,7 @@ import { Button, buttonVariants } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { SpecPlate } from '../components/ui/SpecPlate';
 import { NAP } from '../content/nap';
+import welding2 from '../assets/gallery/welding2.jpg';
 
 export function Home() {
   return (
@@ -41,7 +42,7 @@ export function Home() {
             </div>
             <div className="relative">
               <img 
-                src="/gallery/welding2.jpg" 
+                src={welding2} 
                 alt="Welder working with bright sparks" 
                 className="w-full h-[400px] lg:h-[600px] object-cover rounded-sm"
                 loading="eager"

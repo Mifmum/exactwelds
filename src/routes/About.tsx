@@ -6,6 +6,8 @@ import { generatePersonSchema } from '../lib/schema';
 import { Button, buttonVariants } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
+import welding2 from '../assets/gallery/welding2.jpg';
+import stainlessSteel from '../assets/gallery/stainless-steel-tube-tig-welded.jpg';
 
 export function About() {
   return (
@@ -28,7 +30,7 @@ export function About() {
         {/* Hero Photo */}
         <section className="w-full h-[400px] lg:h-[600px]">
           <img 
-            src="/gallery/welding2.jpg" 
+            src={welding2} 
             alt="Zack Miller welding" 
             className="w-full h-full object-cover"
             loading="eager"
@@ -46,7 +48,7 @@ export function About() {
           
           <div className="relative max-w-4xl mx-auto group cursor-pointer rounded-sm overflow-hidden shadow-raised">
             <img 
-              src="/gallery/stainless-steel-tube-tig-welded.jpg" 
+              src={stainlessSteel} 
               alt="Welding process" 
               className="w-full aspect-video object-cover opacity-90 group-hover:opacity-100 transition-opacity"
               loading="lazy"

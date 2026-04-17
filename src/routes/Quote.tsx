@@ -5,6 +5,7 @@ import { QuoteForm } from '../components/forms/QuoteForm';
 import { SpecPlate } from '../components/ui/SpecPlate';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
+import truckBumperBroken from '../assets/gallery/truck-bumper-broken.jpg';
 
 export function Quote() {
   return (
@@ -101,7 +102,7 @@ export function Quote() {
 
               <div className="relative rounded-sm overflow-hidden shadow-card h-64">
                 <img 
-                  src="/gallery/truck-bumper-broken.jpg" 
+                  src={truckBumperBroken} 
                   alt="Welding sparks" 
                   className="w-full h-full object-cover"
                   loading="lazy"

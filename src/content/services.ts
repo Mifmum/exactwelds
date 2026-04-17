@@ -1,3 +1,13 @@
+import service01 from "../assets/gallery/service-01.webp";
+import service02 from "../assets/gallery/service-02.webp";
+import welding2 from "../assets/gallery/welding2.jpg";
+import skidSteer from "../assets/gallery/skid-steer.jpg";
+import aluminumFab from "../assets/gallery/aluminum-fabrication.jpg";
+import stainlessSteel from "../assets/gallery/stainless-steel-tube-tig-welded.jpg";
+import plateWeld1 from "../assets/gallery/plate-weld-1.jpg";
+import handrail from "../assets/gallery/handrail.jpg";
+import truckBumperBroken from "../assets/gallery/truck-bumper-broken.jpg";
+
 export const services = [
   {
     id: 'mobile-welding',
@@ -8,7 +18,7 @@ export const services = [
       'On-site heavy equipment bucket and arm crack repair',
       'Fixed structure and agricultural equipment maintenance'
     ],
-    image: '/gallery/service-01.webp'
+    image: service01
   },
   {
     id: 'trailer-repair',
@@ -19,7 +29,7 @@ export const services = [
       'Jack, coupler, and safety chain installation',
       'Deck replacement and cross-member reinforcement'
     ],
-    image: '/gallery/service-02.webp'
+    image: service02
   },
   {
     id: 'truck-vehicle',
@@ -30,7 +40,7 @@ export const services = [
       'Custom toolbox, rack, and bumper mounts',
       'Rust repair and body panel replacement'
     ],
-    image: '/gallery/welding2.jpg'
+    image: welding2
   },
   {
     id: 'equipment-machinery',
@@ -41,7 +51,7 @@ export const services = [
       'Wear plate and cutting edge replacement',
       'Hydraulic cylinder mount repair'
     ],
-    image: '/gallery/skid-steer.jpg'
+    image: skidSteer
   },
   {
     id: 'aluminum-welding',
@@ -52,7 +62,7 @@ export const services = [
       'Aluminum trailer and utility body work',
       'Custom aluminum bracket fabrication'
     ],
-    image: '/gallery/aluminum-fabrication.jpg'
+    image: aluminumFab
   },
   {
     id: 'stainless-steel',
@@ -63,7 +73,7 @@ export const services = [
       'Architectural railings and guards',
       'Chemical-resistant enclosures'
     ],
-    image: '/gallery/stainless-steel-tube-tig-welded.jpg'
+    image: stainlessSteel
   },
   {
     id: 'custom-fabrication',
@@ -74,7 +84,7 @@ export const services = [
       'Specialized industrial tooling and workstations',
       'Marine-grade components and mounting solutions'
     ],
-    image: '/gallery/plate-weld-1.jpg'
+    image: plateWeld1
   },
   {
     id: 'railings-gates',
@@ -85,7 +95,7 @@ export const services = [
       'Handrails and guard rails to OSHA spec',
       'Decorative fence and ornamental work'
     ],
-    image: '/gallery/handrail.jpg'
+    image: handrail
   },
   {
     id: 'cutting-drilling',
@@ -96,6 +106,6 @@ export const services = [
       'Precision hole drilling and reaming',
       'On-site modification and fitting'
     ],
-    image: '/gallery/truck-bumper-broken.jpg'
+    image: truckBumperBroken
   }
 ];
