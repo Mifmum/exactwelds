@@ -179,7 +179,7 @@ export function About() {
           </div>
         </section>
       </main>
-// Sync fix redirects
+// Sync final cleanup
     </>
   );
 }
