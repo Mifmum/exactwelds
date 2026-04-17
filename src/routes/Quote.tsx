@@ -120,4 +120,4 @@ export function Quote() {
   );
 }
 
-// Sync Quote.tsx
+// Sync Quote again
