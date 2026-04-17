@@ -1,12 +1,12 @@
-import marineDock from "../assets/gallery/marine-dock.jpg";
-import damagedBumper from "../assets/gallery/damaged-bumper.jpg";
-import aluminumFab from "../assets/gallery/aluminum-fabrication.jpg";
-import handrail from "../assets/gallery/handrail.jpg";
-import truckBumperRepaired from "../assets/gallery/truck-bumper-repaired.jpg";
-import plateWeld1 from "../assets/gallery/plate-weld-1.jpg";
-import plateWeld2 from "../assets/gallery/plate-weld-2.jpg";
-import propaneRacks from "../assets/gallery/propane-racks.jpg";
-import skidSteer from "../assets/gallery/skid-steer.jpg";
+import marineDock from "../assets/gallery/img-marine-dock.jpg";
+import damagedBumper from "../assets/gallery/img-damaged-bumper.jpg";
+import aluminumFab from "../assets/gallery/img-aluminum-fabrication.jpg";
+import handrail from "../assets/gallery/img-handrail.jpg";
+import truckBumperRepaired from "../assets/gallery/img-truck-bumper-repaired.jpg";
+import plateWeld1 from "../assets/gallery/img-plate-weld-1.jpg";
+import plateWeld2 from "../assets/gallery/img-plate-weld-2.jpg";
+import propaneRacks from "../assets/gallery/img-propane-racks.jpg";
+import skidSteer from "../assets/gallery/img-skid-steer.jpg";
 
 export const gallery = [
   { id: '6201', title: 'MARINE PWC PORT & DOCK', category: 'fabrication', material: 'MIXED', descriptor: 'Dock & Mooring', image: marineDock },

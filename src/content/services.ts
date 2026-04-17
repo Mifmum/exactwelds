@@ -1,12 +1,12 @@
-import service01 from "../assets/gallery/service-01.webp";
-import service02 from "../assets/gallery/service-02.webp";
+import service01 from "../assets/gallery/img-service-01.webp";
+import service02 from "../assets/gallery/img-service-02.webp";
 import heroWeldingShot from "../assets/gallery/hero.jpg";
-import skidSteer from "../assets/gallery/skid-steer.jpg";
-import aluminumFab from "../assets/gallery/aluminum-fabrication.jpg";
-import stainlessSteel from "../assets/gallery/stainless-steel-tube-tig-welded.jpg";
-import plateWeld1 from "../assets/gallery/plate-weld-1.jpg";
-import handrail from "../assets/gallery/handrail.jpg";
-import damagedBumper from "../assets/gallery/damaged-bumper.jpg";
+import skidSteer from "../assets/gallery/img-skid-steer.jpg";
+import aluminumFab from "../assets/gallery/img-aluminum-fabrication.jpg";
+import stainlessSteel from "../assets/gallery/img-stainless-steel.jpg";
+import plateWeld1 from "../assets/gallery/img-plate-weld-1.jpg";
+import handrail from "../assets/gallery/img-handrail.jpg";
+import damagedBumper from "../assets/gallery/img-damaged-bumper.jpg";
 
 export const services = [
   {
