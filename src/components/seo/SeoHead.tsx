@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import defaultOg from '../../assets/gallery/welding-hero.jpg';
+import defaultOg from '../../assets/gallery/hero-welding-shot.jpg';
 
 interface SeoHeadProps {
   title: string;

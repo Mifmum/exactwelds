@@ -7,7 +7,7 @@ import { TrustBar } from '../components/layout/TrustBar';
 import { buttonVariants } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
-import weldingHero from '../assets/gallery/welding-hero.jpg';
+import heroWeldingShot from '../assets/gallery/hero-welding-shot.jpg';
 
 export function Home() {
   return (
@@ -41,7 +41,7 @@ export function Home() {
             </div>
             <div className="relative">
               <img 
-                src={weldingHero} 
+                src={heroWeldingShot} 
                 alt="Welder working with bright sparks" 
                 className="w-full h-[400px] lg:h-[600px] object-cover rounded-sm"
                 loading="eager"

@@ -2,14 +2,14 @@ import { NAP } from '../content/nap';
 import { services } from '../content/services';
 import { gallery } from '../content/gallery';
 import { faqGroups } from '../content/faq';
-import weldingHero from '../assets/gallery/welding-hero.jpg';
+import heroWeldingShot from '../assets/gallery/hero-welding-shot.jpg';
 
 export function generateLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": NAP.name,
-    "image": `https://exactwelds.com${weldingHero}`,
+    "image": `https://exactwelds.com${heroWeldingShot}`,
     "telephone": NAP.phoneE164,
     "email": NAP.email,
     "url": "https://exactwelds.com",

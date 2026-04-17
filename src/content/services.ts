@@ -1,6 +1,6 @@
 import service01 from "../assets/gallery/service-01.webp";
 import service02 from "../assets/gallery/service-02.webp";
-import welding2 from "../assets/gallery/welding-hero.jpg";
+import heroWeldingShot from "../assets/gallery/hero-welding-shot.jpg";
 import skidSteer from "../assets/gallery/skid-steer.jpg";
 import aluminumFab from "../assets/gallery/aluminum-fabrication.jpg";
 import stainlessSteel from "../assets/gallery/stainless-steel-tube-tig-welded.jpg";
@@ -40,7 +40,7 @@ export const services = [
       'Custom toolbox, rack, and bumper mounts',
       'Rust repair and body panel replacement'
     ],
-    image: welding2
+    image: heroWeldingShot
   },
   {
     id: 'equipment-machinery',
