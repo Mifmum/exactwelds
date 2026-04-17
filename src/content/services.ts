@@ -1,6 +1,6 @@
 import service01 from "../assets/gallery/service-01.webp";
 import service02 from "../assets/gallery/service-02.webp";
-import welding2 from "../assets/gallery/welding2.jpg";
+import welding2 from "../assets/gallery/welding-hero.jpg";
 import skidSteer from "../assets/gallery/skid-steer.jpg";
 import aluminumFab from "../assets/gallery/aluminum-fabrication.jpg";
 import stainlessSteel from "../assets/gallery/stainless-steel-tube-tig-welded.jpg";
