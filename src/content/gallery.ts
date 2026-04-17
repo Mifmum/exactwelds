@@ -1,5 +1,5 @@
 import marineDock from "../assets/gallery/marine-dock.jpg";
-import truckBumperBroken from "../assets/gallery/truck-bumper-broken.jpg";
+import truckBumperBroken from "../assets/gallery/damaged-bumper.jpg";
 import aluminumFab from "../assets/gallery/aluminum-fabrication.jpg";
 import handrail from "../assets/gallery/handrail.jpg";
 import truckBumperRepaired from "../assets/gallery/truck-bumper-repaired.jpg";

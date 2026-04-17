@@ -4,7 +4,7 @@ import { SeoHead } from '../components/seo/SeoHead';
 import { QuoteForm } from '../components/forms/QuoteForm';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
-import truckBumperBroken from '../assets/gallery/truck-bumper-broken.jpg';
+import truckBumperBroken from '../assets/gallery/damaged-bumper.jpg';
 
 export function Quote() {
   return (
