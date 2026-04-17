@@ -74,7 +74,7 @@ export const services = [
       'Specialized industrial tooling and workstations',
       'Marine-grade components and mounting solutions'
     ],
-    image: '/gallery/blueprint-placeholder.jpg'
+    image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=1600'
   },
   {
     id: 'railings-gates',
@@ -85,7 +85,7 @@ export const services = [
       'Handrails and guard rails to OSHA spec',
       'Decorative fence and ornamental work'
     ],
-    image: '/gallery/metal-gate-placeholder2.jpg'
+    image: 'https://loremflickr.com/1600/900/iron,gate?lock=105'
   },
   {
     id: 'cutting-drilling',
@@ -96,6 +96,6 @@ export const services = [
       'Precision hole drilling and reaming',
       'On-site modification and fitting'
     ],
-    image: '/gallery/drilling-placeholder.jpg'
+    image: 'https://loremflickr.com/1600/900/drilling,metal?lock=205'
   }
 ];

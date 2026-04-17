@@ -95,7 +95,6 @@ export function Services() {
                 <section key={service.id} id={service.id} className="scroll-mt-32">
                   <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${!isEven ? 'lg:flex-row-reverse' : ''}`}>
                     <div className={!isEven ? 'lg:order-2' : ''}>
-                      <Tag variant="primary" className="mb-6">SERVICE 0{index + 1}</Tag>
                       <h2 className="display-md uppercase mb-6">{service.title}</h2>
                       <p className="body-base text-on-surface-variant mb-8">
                         {service.description}
