@@ -4,7 +4,7 @@ import { SeoHead } from '../components/seo/SeoHead';
 import { QuoteForm } from '../components/forms/QuoteForm';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
-import truckBumperBroken from '../assets/gallery/damaged-bumper.jpg';
+import damagedBumper from '../assets/gallery/damaged-bumper.jpg';
 
 export function Quote() {
   return (
@@ -101,7 +101,7 @@ export function Quote() {
 
               <div className="relative rounded-sm overflow-hidden shadow-card h-64">
                 <img 
-                  src={truckBumperBroken} 
+                  src={damagedBumper} 
                   alt="Welding sparks" 
                   className="w-full h-full object-cover"
                   loading="lazy"

@@ -6,7 +6,7 @@ import aluminumFab from "../assets/gallery/aluminum-fabrication.jpg";
 import stainlessSteel from "../assets/gallery/stainless-steel-tube-tig-welded.jpg";
 import plateWeld1 from "../assets/gallery/plate-weld-1.jpg";
 import handrail from "../assets/gallery/handrail.jpg";
-import truckBumperBroken from "../assets/gallery/damaged-bumper.jpg";
+import damagedBumper from "../assets/gallery/damaged-bumper.jpg";
 
 export const services = [
   {
@@ -106,6 +106,6 @@ export const services = [
       'Precision hole drilling and reaming',
       'On-site modification and fitting'
     ],
-    image: truckBumperBroken
+    image: damagedBumper
   }
 ];
