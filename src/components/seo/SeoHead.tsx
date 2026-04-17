@@ -1,6 +1,5 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import defaultOg from '../../assets/gallery/hero.jpg';
 
 interface SeoHeadProps {
   title: string;
@@ -17,7 +16,7 @@ export function SeoHead({
   ogImage,
   jsonLd 
 }: SeoHeadProps) {
-  const finalOgImage = ogImage || `https://exactwelds.com${defaultOg}`;
+  const finalOgImage = ogImage || `https://exactwelds.com/gallery/hero.jpg`;
   return (
     <Helmet>
       <title>{title}</title>
