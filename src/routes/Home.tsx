@@ -45,7 +45,7 @@ export function Home() {
                 alt="Welder working with bright sparks" 
                 className="w-full h-[400px] lg:h-[600px] object-cover rounded-sm"
                 loading="eager"
-                referrerPolicy="no-referrer"
+                
               />
               <div className="absolute -bottom-6 -left-6 lg:bottom-8 lg:-left-12 bg-surface-container-lowest p-6 shadow-raised rounded-sm flex items-center gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
@@ -101,7 +101,7 @@ export function Home() {
                   alt="Welder working in a home garage" 
                   className="w-full h-[500px] object-cover rounded-sm"
                   loading="lazy"
-                  referrerPolicy="no-referrer"
+                  
                 />
                 <div className="absolute bottom-6 left-6 right-6 bg-surface-container-lowest p-8 shadow-raised rounded-sm">
                   <h3 className="display-sm uppercase mb-4">HOMEOWNERS AND DIYERS</h3>
@@ -120,7 +120,7 @@ export function Home() {
                   alt="Industrial welder working in a shop" 
                   className="w-full h-[500px] object-cover rounded-sm"
                   loading="lazy"
-                  referrerPolicy="no-referrer"
+                  
                 />
                 <div className="absolute bottom-6 left-6 right-6 bg-surface-container-lowest p-8 shadow-raised rounded-sm">
                   <h3 className="display-sm uppercase mb-4">COMMERCIAL AND INDUSTRIAL</h3>

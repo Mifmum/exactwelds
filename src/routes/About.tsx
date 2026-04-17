@@ -32,7 +32,7 @@ export function About() {
             alt="Zack Miller welding" 
             className="w-full h-full object-cover"
             loading="eager"
-            referrerPolicy="no-referrer"
+            
           />
         </section>
 
@@ -50,7 +50,7 @@ export function About() {
               alt="Welding process" 
               className="w-full aspect-video object-cover opacity-90 group-hover:opacity-100 transition-opacity"
               loading="lazy"
-              referrerPolicy="no-referrer"
+              
             />
             <div className="absolute inset-0 bg-dark-panel/40 flex flex-col items-center justify-center">
               <div className="w-20 h-20 bg-background/10 backdrop-blur-md border border-outline-variant/30 text-primary rounded-full flex items-center justify-center shadow-raised group-hover:scale-110 transition-transform mb-6">

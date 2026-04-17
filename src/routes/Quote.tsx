@@ -105,7 +105,7 @@ export function Quote() {
                   alt="Welding sparks" 
                   className="w-full h-full object-cover"
                   loading="lazy"
-                  referrerPolicy="no-referrer"
+                  
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-panel/90 via-dark-panel/40 to-transparent flex flex-col justify-end p-6">
                   <h3 className="display-sm uppercase text-on-dark-panel mb-1">THE GOLD STANDARD</h3>
