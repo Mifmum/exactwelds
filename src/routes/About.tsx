@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { ShieldCheck, Award, FileCheck } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { generatePersonSchema } from '../lib/schema';
-import { Button, buttonVariants } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
 import welding2 from '../assets/gallery/welding2.jpg';

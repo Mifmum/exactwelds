@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Truck, ShieldCheck, Tag, Play } from 'lucide-react';
+import { Truck, ShieldCheck, Tag } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { generateLocalBusinessSchema } from '../lib/schema';
 import { TrustBar } from '../components/layout/TrustBar';
-import { Button, buttonVariants } from '../components/ui/Button';
+import { buttonVariants } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
-import { SpecPlate } from '../components/ui/SpecPlate';
 import { NAP } from '../content/nap';
 import welding2 from '../assets/gallery/welding2.jpg';
 
