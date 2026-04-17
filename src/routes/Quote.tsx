@@ -120,4 +120,4 @@ export function Quote() {
   );
 }
 
-// Bypassing Cloudflare cache completely...
+// Sync Quote.tsx

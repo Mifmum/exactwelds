@@ -179,6 +179,7 @@ export function About() {
           </div>
         </section>
       </main>
+// Sync About.tsx
     </>
   );
 }
