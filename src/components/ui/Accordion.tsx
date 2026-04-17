@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Plus, Minus } from 'lucide-react';
 import { cn } from '../../lib/cn';
 

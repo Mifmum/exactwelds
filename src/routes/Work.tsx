@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { X } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { generateWorkSchema } from '../lib/schema';
-import { Button, buttonVariants } from '../components/ui/Button';
+import { buttonVariants } from '../components/ui/Button';
 import { Tag } from '../components/ui/Tag';
 import { gallery } from '../content/gallery';
 import { cn } from '../lib/cn';

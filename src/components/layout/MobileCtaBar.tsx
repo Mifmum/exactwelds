@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone } from 'lucide-react';
 import { NAP } from '../../content/nap';
-import { cn } from '../../lib/cn';
 
 export function MobileCtaBar() {
   return (

@@ -3,7 +3,7 @@ import { SeoHead } from '../components/seo/SeoHead';
 import { generateFaqSchema } from '../lib/schema';
 import { Accordion } from '../components/ui/Accordion';
 import { Card } from '../components/ui/Card';
-import { Button, buttonVariants } from '../components/ui/Button';
+import { buttonVariants } from '../components/ui/Button';
 import { Link } from 'react-router-dom';
 import { NAP } from '../content/nap';
 import { faqGroups } from '../content/faq';

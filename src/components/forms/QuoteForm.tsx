@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useForm, Controller } from 'react-hook-form';
+import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { Button } from '../ui/Button';
@@ -21,16 +21,12 @@ const quoteSchema = z.object({
 
 type QuoteFormValues = z.infer<typeof quoteSchema>;
 
-// TODO: Replace with real endpoint
-const SUBMIT_ENDPOINT = 'https://usebasin.com/f/REPLACE_ME';
-
 export function QuoteForm() {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
   const {
     register,
     handleSubmit,
-    control,
     formState: { errors },
     setValue
   } = useForm<QuoteFormValues>({
@@ -40,7 +36,7 @@ export function QuoteForm() {
     }
   });
 
-  const onSubmit = async (data: QuoteFormValues) => {
+  const onSubmit = async () => {
     setStatus('submitting');
     try {
       // Mock submission
