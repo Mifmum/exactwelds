@@ -179,7 +179,7 @@ export function About() {
           </div>
         </section>
       </main>
-// Final sync trigger
+// Final sync trigger 6
     </>
   );
 }
