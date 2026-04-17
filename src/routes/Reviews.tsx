@@ -37,10 +37,10 @@ export function Reviews() {
                 Exact Welds became BBB Accredited in March 2026. We're collecting reviews from current customers now — check back, or be one of the first to leave yours.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="https://www.google.com/search?kgmid=/g/11vhcswml9&hl=en-US&q=Exact+Welds&shndl=30&source=sh/x/loc/osrp/m5/1&kgs=71b09e102f193df6&utm_source=sh/x/loc/osrp/m5/1#lrd=0x4fa24c4bc103f4db:0x1372ca3d541120dd,3,,,," target="_blank" rel="noopener noreferrer" className={buttonVariants({ variant: 'primary' })}>
+                <a href="https://www.google.com/search?q=Exact+Welds#lrd=0x4fa24c4bc103f4db:0x1372ca3d541120dd,3,,,," target="_blank" rel="noopener noreferrer" className={buttonVariants({ variant: 'primary' })}>
                   REVIEW US ON GOOGLE
                 </a>
-                <a href="https://www.facebook.com/exactwelds?rdid=XEZyIRWKLSAdvWzj&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Du5hnKwwU%2F#" target="_blank" rel="noopener noreferrer" className={buttonVariants({ variant: 'primary' })}>
+                <a href="https://www.facebook.com/exactwelds/reviews" target="_blank" rel="noopener noreferrer" className={buttonVariants({ variant: 'primary' })}>
                   REVIEW US ON FACEBOOK
                 </a>
                 <a href="https://www.bbb.org/us/oh/toledo/profile/welding/exact-welds-mobile-welding-0422-211020886/customer-reviews" target="_blank" rel="noopener noreferrer" className={buttonVariants({ variant: 'secondary' })}>
