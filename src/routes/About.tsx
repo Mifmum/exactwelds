@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Play, ShieldCheck, Award, FileCheck } from 'lucide-react';
+import { ShieldCheck, Award, FileCheck } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { generatePersonSchema } from '../lib/schema';
 import { Button, buttonVariants } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
 import welding2 from '../assets/gallery/welding2.jpg';
-import stainlessSteel from '../assets/gallery/stainless-steel-tube-tig-welded.jpg';
 
 export function About() {
   return (
@@ -36,33 +35,6 @@ export function About() {
             loading="eager"
             
           />
-        </section>
-
-        {/* Process Video Block */}
-        <section className="py-20 lg:py-32 max-w-[1280px] mx-auto px-6 lg:px-12">
-          <div className="text-center mb-12">
-            <span className="text-label text-primary relative inline-block before:absolute before:top-1/2 before:-left-16 before:w-12 before:h-[1px] before:bg-outline-variant after:absolute after:top-1/2 after:-right-16 after:w-12 after:h-[1px] after:bg-outline-variant">
-              THE PROCESS
-            </span>
-          </div>
-          
-          <div className="relative max-w-4xl mx-auto group cursor-pointer rounded-sm overflow-hidden shadow-raised">
-            <img 
-              src={stainlessSteel} 
-              alt="Welding process" 
-              className="w-full aspect-video object-cover opacity-90 group-hover:opacity-100 transition-opacity"
-              loading="lazy"
-              
-            />
-            <div className="absolute inset-0 bg-dark-panel/40 flex flex-col items-center justify-center">
-              <div className="w-20 h-20 bg-background/10 backdrop-blur-md border border-outline-variant/30 text-primary rounded-full flex items-center justify-center shadow-raised group-hover:scale-110 transition-transform mb-6">
-                <Play size={32} className="ml-2" />
-              </div>
-              <span className="text-label text-on-primary tracking-widest">
-                WATCH: THE MASTER MACHINIST AT WORK
-              </span>
-            </div>
-          </div>
         </section>
 
         {/* Verified Authority */}
