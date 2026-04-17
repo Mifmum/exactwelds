@@ -5,7 +5,7 @@ import { SeoHead } from '../components/seo/SeoHead';
 import { generatePersonSchema } from '../lib/schema';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
-import heroWeldingShot from '../assets/gallery/hero-welding-shot.jpg';
+import heroWeldingShot from '../assets/gallery/hero.jpg';
 
 export function About() {
   return (
@@ -32,7 +32,6 @@ export function About() {
             alt="Zack Miller welding" 
             className="w-full h-full object-cover"
             loading="eager"
-            
           />
         </section>
 

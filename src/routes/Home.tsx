@@ -7,7 +7,7 @@ import { TrustBar } from '../components/layout/TrustBar';
 import { buttonVariants } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
-import heroWeldingShot from '../assets/gallery/hero-welding-shot.jpg';
+import heroWeldingShot from '../assets/gallery/hero.jpg';
 
 export function Home() {
   return (
@@ -45,7 +45,6 @@ export function Home() {
                 alt="Welder working with bright sparks" 
                 className="w-full h-[400px] lg:h-[600px] object-cover rounded-sm"
                 loading="eager"
-                
               />
               <div className="absolute -bottom-6 -left-6 lg:bottom-8 lg:-left-12 bg-surface-container-lowest p-6 shadow-raised rounded-sm flex items-center gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
@@ -116,4 +115,4 @@ export function Home() {
   );
 }
 
-// Bypassing Cloudflare cache completely...
+// Bypassing Cloudflare cache completely... take 2

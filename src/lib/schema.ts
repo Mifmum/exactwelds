@@ -2,7 +2,7 @@ import { NAP } from '../content/nap';
 import { services } from '../content/services';
 import { gallery } from '../content/gallery';
 import { faqGroups } from '../content/faq';
-import heroWeldingShot from '../assets/gallery/hero-welding-shot.jpg';
+import heroWeldingShot from '../assets/gallery/hero.jpg';
 
 export function generateLocalBusinessSchema() {
   return {
