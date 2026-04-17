@@ -101,7 +101,7 @@ export function Quote() {
 
               <div className="relative rounded-sm overflow-hidden shadow-card h-64">
                 <img 
-                  src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&sat=-100" 
+                  src="/gallery/truck-bumper-broken.jpg" 
                   alt="Welding sparks" 
                   className="w-full h-full object-cover"
                   loading="lazy"

@@ -41,7 +41,7 @@ export function Home() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900" 
+                src="/gallery/welding2.jpg" 
                 alt="Welder working with bright sparks" 
                 className="w-full h-[400px] lg:h-[600px] object-cover rounded-sm"
                 loading="eager"
@@ -97,7 +97,7 @@ export function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1504222490345-c075b6008014?w=900&sat=-100" 
+                  src="/gallery/truck-bumper-repaired.jpg" 
                   alt="Welder working in a home garage" 
                   className="w-full h-[500px] object-cover rounded-sm"
                   loading="lazy"
@@ -116,7 +116,7 @@ export function Home() {
 
               <div className="relative group">
                 <img 
-                  src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900&sat=-100" 
+                  src="/gallery/skid-steer.jpg" 
                   alt="Industrial welder working in a shop" 
                   className="w-full h-[500px] object-cover rounded-sm"
                   loading="lazy"

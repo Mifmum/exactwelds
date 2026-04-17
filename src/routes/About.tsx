@@ -28,7 +28,7 @@ export function About() {
         {/* Hero Photo */}
         <section className="w-full h-[400px] lg:h-[600px]">
           <img 
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600" 
+            src="/gallery/welding2.jpg" 
             alt="Zack Miller welding" 
             className="w-full h-full object-cover"
             loading="eager"
@@ -46,7 +46,7 @@ export function About() {
           
           <div className="relative max-w-4xl mx-auto group cursor-pointer rounded-sm overflow-hidden shadow-raised">
             <img 
-              src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1200&sat=-100" 
+              src="/gallery/stainless-steel-tube-tig-welded.jpg" 
               alt="Welding process" 
               className="w-full aspect-video object-cover opacity-90 group-hover:opacity-100 transition-opacity"
               loading="lazy"

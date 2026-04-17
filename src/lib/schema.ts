@@ -8,7 +8,7 @@ export function generateLocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": NAP.name,
-    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900",
+    "image": "https://exactwelds.com/gallery/welding2.jpg",
     "telephone": NAP.phoneE164,
     "email": NAP.email,
     "url": "https://exactwelds.com",

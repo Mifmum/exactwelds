@@ -41,7 +41,7 @@ export const services = [
       'Wear plate and cutting edge replacement',
       'Hydraulic cylinder mount repair'
     ],
-    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=1600'
+    image: '/gallery/equipment-placeholder.jpg'
   },
   {
     id: 'aluminum-welding',
@@ -52,7 +52,7 @@ export const services = [
       'Aluminum trailer and utility body work',
       'Custom aluminum bracket fabrication'
     ],
-    image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1600'
+    image: '/gallery/aluminum-placeholder.jpg'
   },
   {
     id: 'stainless-steel',
@@ -74,7 +74,7 @@ export const services = [
       'Specialized industrial tooling and workstations',
       'Marine-grade components and mounting solutions'
     ],
-    image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=1600'
+    image: '/gallery/metal-gate-placeholder2.jpg'
   },
   {
     id: 'railings-gates',
@@ -85,7 +85,7 @@ export const services = [
       'Handrails and guard rails to OSHA spec',
       'Decorative fence and ornamental work'
     ],
-    image: 'https://loremflickr.com/1600/900/iron,gate?lock=105'
+    image: '/gallery/metal-gate-placeholder.jpg'
   },
   {
     id: 'cutting-drilling',
@@ -96,6 +96,6 @@ export const services = [
       'Precision hole drilling and reaming',
       'On-site modification and fitting'
     ],
-    image: 'https://loremflickr.com/1600/900/drilling,metal?lock=205'
+    image: '/gallery/drilling-placeholder.jpg'
   }
 ];

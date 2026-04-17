@@ -13,7 +13,7 @@ export function SeoHead({
   title, 
   description, 
   canonical = 'https://exactwelds.com', 
-  ogImage = 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1200',
+  ogImage = 'https://exactwelds.com/gallery/welding2.jpg',
   jsonLd 
 }: SeoHeadProps) {
   return (
