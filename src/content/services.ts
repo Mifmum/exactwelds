@@ -30,7 +30,7 @@ export const services = [
       'Custom toolbox, rack, and bumper mounts',
       'Rust repair and body panel replacement'
     ],
-    image: "/gallery/hero.jpg"
+    image: "/gallery/img-truck-vehicle.jpg"
   },
   {
     id: 'equipment-machinery',
