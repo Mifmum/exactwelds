@@ -27,8 +27,8 @@ export function About() {
         {/* Hero Photo */}
         <section className="w-full h-[400px] lg:h-[600px]">
           <img 
-            src="/gallery/hero.jpg" 
-            alt="Zack Miller welding" 
+            src="/gallery/img-about-hero.jpg"
+            alt="Zack Miller welding"
             className="w-full h-full object-cover"
             loading="eager"
           />

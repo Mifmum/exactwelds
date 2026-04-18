@@ -20,4 +20,14 @@
 - **Author:** Arc Machines, Inc. (Flickr)
 - **License:** [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
 
+## img-about-hero.jpg
+- **Source:** Wikimedia Commons — [Welder At Work (123631085).jpeg](https://commons.wikimedia.org/wiki/File:Welder_At_Work_(123631085).jpeg)
+- **Author:** sumit surai (500px)
+- **License:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+
+## img-truck-vehicle.jpg
+- **Source:** Wikimedia Commons — [Automotive Welder (Unsplash).jpg](https://commons.wikimedia.org/wiki/File:Automotive_Welder_(Unsplash).jpg)
+- **Author:** Christopher Burns (Unsplash)
+- **License:** CC0 / Unsplash License
+
 All images resized and recompressed for web delivery. No other modifications.
