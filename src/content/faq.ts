@@ -4,7 +4,7 @@ export const faqGroups = [
     items: [
       {
         question: 'What welding processes does Exact Welds specialize in?',
-        answer: 'Exact Welds provides technical expertise in TIG (GTAW), MIG (GMAW), and Stick (SMAW) welding. Our primary focus is on precision aluminum, stainless steel, and high-carbon steel fabrications for industrial clients in the greater Toledo region.'
+        answer: 'Exact Welds provides technical expertise in MIG (GMAW) and Stick (SMAW) welding. Our primary focus is on precision aluminum, stainless steel, and high-carbon steel fabrications for industrial clients in the greater Toledo region.'
       },
       {
         question: 'Are you AWS certified for structural work?',
