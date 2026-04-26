@@ -1,7 +1,7 @@
 ---
 title: "refactor: Image pipeline cleanup"
 type: refactor
-status: active
+status: completed
 date: 2026-04-26
 origin: docs/brainstorms/2026-04-26-image-pipeline-cleanup-requirements.md
 ---
