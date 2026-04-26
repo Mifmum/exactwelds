@@ -2,16 +2,19 @@ import { NAP } from '../content/nap';
 import { services } from '../content/services';
 import { gallery } from '../content/gallery';
 import { faqGroups } from '../content/faq';
+import { normalizeSiteUrl } from './site-url';
 
 export function generateLocalBusinessSchema() {
+  const siteUrl = normalizeSiteUrl(import.meta.env.VITE_SITE_URL) ?? 'http://localhost:3000';
+
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": NAP.name,
-    "image": `https://exactwelds.com/gallery/hero.jpg`,
+    "image": new URL('/og-image.jpg', siteUrl).toString(),
     "telephone": NAP.phoneE164,
     "email": NAP.email,
-    "url": "https://exactwelds.com",
+    "url": siteUrl,
     "areaServed": NAP.cities.map(city => ({
       "@type": "City",
       "name": city,
