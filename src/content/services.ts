@@ -67,7 +67,7 @@ export const services = [
   {
     id: 'stainless-steel',
     title: 'STAINLESS STEEL WELDING',
-    description: 'Sanitary, food-grade, and architectural stainless welding for code-compliant results. Suitable for commercial kitchens, railings, and pipeline work.',
+    description: 'Sanitary, food-grade, and architectural stainless welding with back-purged TIG for code-compliant results. Suitable for commercial kitchens, railings, and pipeline work.',
     bullets: [
       'Food-grade pipeline and tank welding',
       'Architectural railings and guards',

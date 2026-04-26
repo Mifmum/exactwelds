@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ShieldCheck, Award, FileCheck } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { generatePersonSchema } from '../lib/schema';
@@ -170,9 +171,9 @@ export function About() {
               Ready for technical precision? Call or message now to discuss your project requirements and get a professional estimate.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <a href={`tel:${NAP.phoneE164}`} className="bg-surface-container-lowest text-primary hover:bg-surface-container-low h-14 px-8 inline-flex items-center justify-center rounded-sm font-sans font-bold uppercase tracking-wide transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-container-lowest">
+              <Link to="/quote" className="bg-surface-container-lowest text-primary hover:bg-surface-container-low h-14 px-8 inline-flex items-center justify-center rounded-sm font-sans font-bold uppercase tracking-wide transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-container-lowest">
                 START YOUR PROJECT
-              </a>
+              </Link>
               <a href={`tel:${NAP.phoneE164}`} className="bg-transparent border-2 border-on-primary text-on-primary hover:bg-on-primary hover:text-primary h-14 px-8 inline-flex items-center justify-center rounded-sm font-sans font-bold uppercase tracking-wide transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface-container-lowest">
                 CALL {NAP.phone}
               </a>

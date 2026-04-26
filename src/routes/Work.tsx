@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { X } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { generateWorkSchema } from '../lib/schema';
 import { buttonVariants } from '../components/ui/Button';
 import { Tag } from '../components/ui/Tag';
 import { gallery } from '../content/gallery';
-import { NAP } from '../content/nap';
 import { cn } from '../lib/cn';
 
 const categories = [
@@ -122,9 +122,9 @@ export function Work() {
                   Our team delivers technical precision for industrial, commercial, and custom fabrication needs. Let's build something durable.
                 </p>
               </div>
-              <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'primary' })}>
+              <Link to="/quote" className={buttonVariants({ variant: 'primary' })}>
                 GET A FREE QUOTE
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -175,7 +175,7 @@ export function Work() {
                 <div>
                   <h4 className="text-label text-on-background mb-2">WHAT ZACK DID</h4>
                   <p className="body-sm text-on-surface-variant">
-                    Excavated old welds, prepped joints to bare metal, and applied multi-pass MIG welding for maximum penetration and a clean finish.
+                    Excavated old welds, prepped joints to bare metal, and applied multi-pass TIG welding for maximum penetration and aesthetic finish.
                   </p>
                 </div>
                 <div>
@@ -187,9 +187,9 @@ export function Work() {
               </div>
 
               <div className="pt-8 border-t border-outline-variant/30 mt-auto">
-                <a href={`tel:${NAP.phoneE164}`} className={cn(buttonVariants({ variant: 'primary' }), "w-full text-center")}>
+                <Link to={`/quote?ref=${selectedProject.id}`} className={cn(buttonVariants({ variant: 'primary' }), "w-full text-center")}>
                   NEED WORK LIKE THIS?
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -3,7 +3,6 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { cn } from '../../lib/cn';
 import { buttonVariants } from '../ui/Button';
-import { NAP } from '../../content/nap';
 
 const navLinks = [
   { name: 'HOME', path: '/' },
@@ -72,9 +71,9 @@ export function Header() {
         </nav>
 
         <div className="hidden lg:block">
-          <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'primary' })}>
+          <Link to="/quote" className={buttonVariants({ variant: 'primary' })}>
             GET A FREE QUOTE
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -120,9 +119,9 @@ export function Header() {
             ))}
           </nav>
           <div className="p-6 border-t border-outline-variant/30">
-            <a href={`tel:${NAP.phoneE164}`} className={cn(buttonVariants({ variant: 'primary' }), 'w-full')}>
+            <Link to="/quote" className={cn(buttonVariants({ variant: 'primary' }), 'w-full')}>
               GET A FREE QUOTE
-            </a>
+            </Link>
           </div>
         </div>
       )}

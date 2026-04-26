@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useEffect } from 'react';
+import React, { useEffect } from 'react'; // force update 3
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
@@ -16,6 +16,7 @@ import { Work } from './routes/Work';
 import { About } from './routes/About';
 import { Reviews } from './routes/Reviews';
 import { Faq } from './routes/Faq';
+import { Quote } from './routes/Quote';
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
@@ -43,6 +44,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/quote" element={<Quote />} />
         </Routes>
       </div>
 
