@@ -8,6 +8,8 @@ import { buttonVariants } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
 
+import heroImg from '../assets/gallery/hero.jpg';
+
 export function Home() {
   return (
     <>
@@ -40,7 +42,7 @@ export function Home() {
             </div>
             <div className="relative">
               <img 
-                src="/gallery/hero.jpg?v=2" 
+                src={heroImg} 
                 alt="Welder working with bright sparks" 
                 className="w-full h-[400px] lg:h-[600px] object-cover rounded-sm"
                 loading="eager"

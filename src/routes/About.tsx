@@ -5,6 +5,7 @@ import { SeoHead } from '../components/seo/SeoHead';
 import { generatePersonSchema } from '../lib/schema';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
+import heroImg from '../assets/gallery/hero.jpg';
 
 export function About() {
   return (
@@ -27,7 +28,7 @@ export function About() {
         {/* Hero Photo */}
         <section className="w-full h-[400px] lg:h-[600px]">
           <img 
-            src="/gallery/hero.jpg?v=2" 
+            src={heroImg} 
             alt="Zack Miller welding" 
             className="w-full h-full object-cover"
             loading="eager"
