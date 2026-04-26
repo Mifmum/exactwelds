@@ -1,10 +1,12 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to any agent (Claude Code, Codex, Pi, etc.) working in this repository. `CLAUDE.md` is a one-line `@AGENTS.md` import.
 
 ## What this is
 
 Marketing site for **Exact Welds** — a mobile welder in Toledo, OH (sole owner Zack Miller). Solo developer (Justin) maintains the codebase; the customer-visible business goal is being found in search and converting on Facebook shares. There is no test runner; verification is build-gated and manual. The site lives at `https://exactwelds.com` and deploys to Cloudflare Workers.
+
+**Conversion mechanism: phone, not form.** All "Get a Free Quote" CTAs are `<a href={\`tel:${NAP.phoneE164}\`}>` — clicking dials Zack directly. There is no quote-intake form, no `/quote` route, and no inbound email handler. If you find yourself wanting to add one, ask first; the deliberate choice is to keep the funnel as short as possible.
 
 ## Stack
 
@@ -19,7 +21,12 @@ Marketing site for **Exact Welds** — a mobile welder in Toledo, OH (sole owner
 | Images | `sharp` for build-time validation (devDep); ESM imports for in-page assets (Vite hashes them) |
 | Deploy | `wrangler` + `@cloudflare/vite-plugin`; SPA fallback via `assets.not_found_handling: "single-page-application"` in `wrangler.jsonc` |
 
-The README still references the original Google AI Studio scaffolding (`GEMINI_API_KEY`, AI Studio app URL, `npm install`). It is **stale** — the runtime stack has moved on. AI Studio leftovers also include `metadata.json`, the `DISABLE_HMR` block in `vite.config.ts`, and several unused root-level `fetch-*.ts` / `debug-cf.ts` / `test-*.ts` scripts. These are tracked for cleanup separately (see `docs/ideation/2026-04-26-cleanup-ideation.md` Idea #6) — do not touch them ad hoc.
+The repo was originally scaffolded by Google AI Studio. Most leftovers (`metadata.json`, root-level `fetch-*.ts`/`debug-cf.ts`/`test-*.ts` debug scripts, the AI Studio README) have been removed. Two scaffold artifacts remain and are intentional for now:
+
+- `.env.example` lists `GEMINI_API_KEY` and `APP_URL` alongside `VITE_SITE_URL`. The first two are unused in source but harmless; AI Studio injects them at runtime if the project ever returns there.
+- `vite.config.ts` keeps a `DISABLE_HMR` env-var check in `server.hmr` from the AI Studio era. Remove only if you confirm the project no longer needs to run inside AI Studio.
+
+Do not chase these without a deliberate cleanup pass.
 
 ## Commands
 
@@ -52,13 +59,12 @@ There are no unit/integration tests and no test framework. Do **not** introduce 
 
 ```
 src/
-  main.tsx, App.tsx       # bootstraps StrictMode + HelmetProvider + BrowserRouter; declares 7 routes
-  routes/                 # one file per route (Home, Services, Work, About, Reviews, Faq, Quote)
+  main.tsx, App.tsx       # bootstraps StrictMode + HelmetProvider + BrowserRouter; declares 6 routes
+  routes/                 # one file per route (Home, Services, Work, About, Reviews, Faq)
   components/
     layout/               # Header, Footer, MobileCtaBar, TrustBar, SectionDivider
     ui/                   # Button, Card, Accordion, Tag, SpecPlate
     seo/SeoHead.tsx       # react-helmet-async wrapper; emits title, description, canonical, JSON-LD
-    forms/QuoteForm.tsx   # quote intake (react-hook-form + zod)
   content/                # static data (no logic): nap.ts, gallery.ts, services.ts, faq.ts
   lib/
     cn.ts                 # twMerge + clsx helper for className composition
