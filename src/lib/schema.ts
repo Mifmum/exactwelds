@@ -4,14 +4,16 @@ import { gallery } from '../content/gallery';
 import { faqGroups } from '../content/faq';
 
 export function generateLocalBusinessSchema() {
+  const siteUrl = import.meta.env.VITE_SITE_URL ?? 'http://localhost:3000';
+
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": NAP.name,
-    "image": `https://exactwelds.com/gallery/hero.jpg`,
+    "image": `${siteUrl}/og-image.jpg`,
     "telephone": NAP.phoneE164,
     "email": NAP.email,
-    "url": "https://exactwelds.com",
+    "url": siteUrl,
     "areaServed": NAP.cities.map(city => ({
       "@type": "City",
       "name": city,
