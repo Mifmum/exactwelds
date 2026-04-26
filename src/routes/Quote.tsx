@@ -83,7 +83,7 @@ export function Quote() {
                 <div className="grid grid-cols-2 gap-y-6 gap-x-4">
                   <div>
                     <div className="text-label text-on-surface-variant mb-1">PROCEDURES</div>
-                    <div className="mono-sm text-on-background">MIG / TIG / Stick</div>
+                    <div className="mono-sm text-on-background">MIG / Stick</div>
                   </div>
                   <div>
                     <div className="text-label text-on-surface-variant mb-1">COMPLIANCE</div>

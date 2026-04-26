@@ -175,7 +175,7 @@ export function Work() {
                 <div>
                   <h4 className="text-label text-on-background mb-2">WHAT ZACK DID</h4>
                   <p className="body-sm text-on-surface-variant">
-                    Excavated old welds, prepped joints to bare metal, and applied multi-pass TIG welding for maximum penetration and aesthetic finish.
+                    Excavated old welds, prepped joints to bare metal, and applied multi-pass welding for maximum penetration and aesthetic finish.
                   </p>
                 </div>
                 <div>

@@ -11,7 +11,7 @@ import imgSkidSteer from '../assets/gallery/img-skid-steer.jpg';
 export const gallery = [
   { id: '6201', title: 'MARINE PWC PORT & DOCK', category: 'fabrication', material: 'MIXED', descriptor: 'Dock & Mooring', image: imgMarineDock },
   { id: '6202', title: 'TRUCK BUMPER IMPACT DAMAGE', category: 'trucks', material: 'STEEL', descriptor: 'Assessment & Repair', image: imgDamagedBumper },
-  { id: '6203', title: 'CUSTOM ALUMINUM FABRICATION', category: 'fabrication', material: 'ALUMINUM', descriptor: 'TIG Welded Assembly', image: imgAluminumFabrication },
+  { id: '6203', title: 'CUSTOM ALUMINUM FABRICATION', category: 'fabrication', material: 'ALUMINUM', descriptor: 'Welded Assembly', image: imgAluminumFabrication },
   { id: '6204', title: 'INDUSTRIAL SAFETY HANDRAIL', category: 'fabrication', material: 'STEEL', descriptor: 'Guardrail Fabrication', image: imgHandrail },
   { id: '6205', title: 'SEMI BUMPER STRUCTURAL DAMAGE', category: 'before-after', material: 'STEEL', descriptor: 'Heavy Truck Front End', image: imgTruckBumperRepaired },
   { id: '6206', title: 'STRUCTURAL PLATE WELD', category: 'fabrication', material: 'STEEL', descriptor: 'Field-Ready Joint', image: imgPlateWeld1 },

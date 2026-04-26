@@ -36,12 +36,31 @@ export function QuoteForm() {
     }
   });
 
-  const onSubmit = async () => {
+  const onSubmit = async (data: QuoteFormValues) => {
     setStatus('submitting');
+    
+    // Honeypot check
+    if (data.website) {
+       setStatus('success');
+       return;
+    }
+
     try {
-      // Mock submission
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      setStatus('success');
+      const subject = `Quote Request from ${data.name}`;
+      const body = `Name: ${data.name}
+Phone: ${data.phone}
+Email: ${data.email}
+Timeframe: ${data.timeframe}
+
+Project Details:
+${data.details}`;
+
+      window.location.href = `mailto:${NAP.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      
+      // Show success after a brief delay
+      setTimeout(() => {
+        setStatus('success');
+      }, 1000);
     } catch (err) {
       setStatus('error');
     }
