@@ -109,5 +109,3 @@ export const services = [
     image: imgDamagedBumper
   }
 ];
-
-// Sync services

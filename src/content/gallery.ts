@@ -19,5 +19,3 @@ export const gallery = [
   { id: '6208', title: 'MOBILE KITCHEN REAR & PROPANE RACKS', category: 'trucks', material: 'STEEL', descriptor: 'Food Truck Fabrication', image: imgPropaneRacks },
   { id: '6209', title: 'SKID STEER SITE WORK', category: 'equipment', material: 'STEEL', descriptor: 'Equipment & Site Support', image: imgSkidSteer }
 ];
-
-// Sync gallery

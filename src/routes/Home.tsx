@@ -116,6 +116,3 @@ export function Home() {
     </>
   );
 }
-
-// Force sync 5
-// Bypassing Cloudflare cache completely... take 2

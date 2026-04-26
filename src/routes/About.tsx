@@ -5,6 +5,7 @@ import { SeoHead } from '../components/seo/SeoHead';
 import { generatePersonSchema } from '../lib/schema';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
+
 import heroImg from '../assets/gallery/hero.jpg';
 
 export function About() {
@@ -181,7 +182,6 @@ export function About() {
           </div>
         </section>
       </main>
-// Final sync trigger 6
     </>
   );
 }
