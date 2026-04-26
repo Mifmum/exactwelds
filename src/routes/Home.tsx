@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Truck, ShieldCheck, Tag } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { generateLocalBusinessSchema } from '../lib/schema';
@@ -32,9 +31,9 @@ export function Home() {
                 Repair, fabrication, and custom work — we bring the shop to you. Professional precision delivered to your site.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/quote" className={buttonVariants({ variant: 'primary' })}>
+                <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'primary' })}>
                   GET A FREE QUOTE
-                </Link>
+                </a>
                 <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'secondary' })}>
                   CALL {NAP.phone}
                 </a>
@@ -101,9 +100,9 @@ export function Home() {
             Call us now or request a quote online. We'll give you a fair price and a professional finish, right at your doorstep.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
-            <Link to="/quote" className={buttonVariants({ variant: 'primary' })}>
+            <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'primary' })}>
               GET A FREE QUOTE
-            </Link>
+            </a>
             <div className="flex flex-col items-center sm:items-start">
               <span className="text-label text-on-surface-variant mb-1">TALK TO A WELDER</span>
               <a href={`tel:${NAP.phoneE164}`} className="mono-md text-on-background hover:text-primary transition-colors text-xl">

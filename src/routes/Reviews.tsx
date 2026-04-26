@@ -4,6 +4,7 @@ import { ShieldCheck, Wrench } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { generateLocalBusinessSchema } from '../lib/schema';
 import { buttonVariants } from '../components/ui/Button';
+import { NAP } from '../content/nap';
 
 export function Reviews() {
   return (
@@ -61,9 +62,9 @@ export function Reviews() {
               From small home fixes to large custom fabrications, our team is ready to provide the reliable service you deserve.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <Link to="/quote" className={buttonVariants({ variant: 'primary' })}>
+              <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'primary' })}>
                 REQUEST QUOTE
-              </Link>
+              </a>
               <Link to="/services" className={buttonVariants({ variant: 'secondary' })}>
                 OUR SERVICES
               </Link>

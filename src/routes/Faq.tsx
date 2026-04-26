@@ -73,9 +73,9 @@ export function Faq() {
               {/* Mid-page CTA */}
               <div className="bg-primary text-on-primary p-8 lg:p-12 rounded-sm shadow-card flex flex-col sm:flex-row items-center justify-between gap-8">
                 <h3 className="display-md uppercase">STILL HAVE QUESTIONS?</h3>
-                <Link to="/quote" className="bg-surface-container-lowest text-primary hover:bg-surface-container-low h-14 px-8 inline-flex items-center justify-center rounded-sm font-sans font-bold uppercase tracking-wide transition-colors shrink-0">
+                <a href={`tel:${NAP.phoneE164}`} className="bg-surface-container-lowest text-primary hover:bg-surface-container-low h-14 px-8 inline-flex items-center justify-center rounded-sm font-sans font-bold uppercase tracking-wide transition-colors shrink-0">
                   GET A FREE QUOTE
-                </Link>
+                </a>
               </div>
 
               {/* Service Area */}
@@ -152,9 +152,9 @@ export function Faq() {
               Contact the experts at Exact Welds today for a detailed assessment of your industrial or custom project in Toledo.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <Link to="/quote" className={buttonVariants({ variant: 'primary' })}>
+              <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'primary' })}>
                 START YOUR QUOTE
-              </Link>
+              </a>
               <Link to="/work" className={buttonVariants({ variant: 'secondary' })}>
                 VIEW OUR WORK
               </Link>

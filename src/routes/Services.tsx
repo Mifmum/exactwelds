@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { Check } from 'lucide-react';
 import { SeoHead } from '../components/seo/SeoHead';
 import { generateServicesSchema } from '../lib/schema';
@@ -62,9 +62,9 @@ export function Services() {
                   </div>
                 </div>
                 <div className="hidden sm:block w-px h-10 bg-outline-variant" />
-                <Link to="/quote" className={cn(buttonVariants({ variant: 'primary' }), "h-14 px-10 w-full sm:w-auto")}>
+                <a href={`tel:${NAP.phoneE164}`} className={cn(buttonVariants({ variant: 'primary' }), "h-14 px-10 w-full sm:w-auto")}>
                   GET A QUOTE
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -110,9 +110,9 @@ export function Services() {
                         ))}
                       </ul>
 
-                      <Link to={`/quote?service=${service.id}`} className={buttonVariants({ variant: 'primary' })}>
+                      <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'primary' })}>
                         GET A QUOTE FOR {service.title.split(' ')[0]}
-                      </Link>
+                      </a>
                     </div>
 
                     <div className={!isEven ? 'lg:order-1' : ''}>
@@ -142,9 +142,9 @@ export function Services() {
                 <a href={`tel:${NAP.phoneE164}`} className="bg-surface-container-lowest text-on-background font-sans font-bold uppercase tracking-wide h-14 px-8 flex items-center justify-center rounded-sm shadow-card hover:shadow-raised transition-all">
                   {NAP.phone}
                 </a>
-                <Link to="/quote" className={buttonVariants({ variant: 'secondary' })}>
-                  SEND TECHNICAL FILES
-                </Link>
+                <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'secondary' })}>
+                  DISCUSS YOUR PROJECT
+                </a>
               </div>
             </section>
           </div>
