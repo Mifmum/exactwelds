@@ -123,7 +123,7 @@ export function Services() {
                           alt={service.title}
                           className="w-full h-[400px] lg:h-[600px] object-cover filter contrast-[1.1] saturate-[0.85] brightness-[0.95] transition-all duration-500 group-hover:scale-[1.02] group-hover:saturate-100 group-hover:brightness-100 group-hover:contrast-100 relative z-0"
                           loading="lazy"
-                          
+                          referrerPolicy="no-referrer"
                         />
                       </div>
                     </div>

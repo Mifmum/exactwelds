@@ -40,10 +40,11 @@ export function Home() {
             </div>
             <div className="relative">
               <img 
-                src="/gallery/hero.jpg" 
+                src="/gallery/hero.jpg?v=2" 
                 alt="Welder working with bright sparks" 
                 className="w-full h-[400px] lg:h-[600px] object-cover rounded-sm"
                 loading="eager"
+                referrerPolicy="no-referrer"
               />
               <div className="absolute -bottom-6 -left-6 lg:bottom-8 lg:-left-12 bg-surface-container-lowest p-6 shadow-raised rounded-sm flex items-center gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">

@@ -8,7 +8,7 @@ export const services = [
       'On-site heavy equipment bucket and arm crack repair',
       'Fixed structure and agricultural equipment maintenance'
     ],
-    image: "/gallery/img-service-01.webp"
+    image: "/gallery/img-service-01.webp?v=2"
   },
   {
     id: 'trailer-repair',
@@ -19,7 +19,7 @@ export const services = [
       'Jack, coupler, and safety chain installation',
       'Deck replacement and cross-member reinforcement'
     ],
-    image: "/gallery/img-service-02.webp"
+    image: "/gallery/img-service-02.webp?v=2"
   },
   {
     id: 'truck-vehicle',
@@ -30,7 +30,7 @@ export const services = [
       'Custom toolbox, rack, and bumper mounts',
       'Rust repair and body panel replacement'
     ],
-    image: "/gallery/img-truck-vehicle.jpg"
+    image: "/gallery/hero.jpg?v=2"
   },
   {
     id: 'equipment-machinery',
@@ -41,7 +41,7 @@ export const services = [
       'Wear plate and cutting edge replacement',
       'Hydraulic cylinder mount repair'
     ],
-    image: "/gallery/img-skid-steer.jpg"
+    image: "/gallery/img-skid-steer.jpg?v=2"
   },
   {
     id: 'aluminum-welding',
@@ -52,7 +52,7 @@ export const services = [
       'Aluminum trailer and utility body work',
       'Custom aluminum bracket fabrication'
     ],
-    image: "/gallery/img-aluminum-fabrication.jpg"
+    image: "/gallery/img-aluminum-fabrication.jpg?v=2"
   },
   {
     id: 'stainless-steel',
@@ -63,7 +63,7 @@ export const services = [
       'Architectural railings and guards',
       'Chemical-resistant enclosures'
     ],
-    image: "/gallery/img-stainless-steel.jpg"
+    image: "/gallery/img-stainless-steel.jpg?v=2"
   },
   {
     id: 'custom-fabrication',
@@ -74,7 +74,7 @@ export const services = [
       'Specialized industrial tooling and workstations',
       'Marine-grade components and mounting solutions'
     ],
-    image: "/gallery/img-plate-weld-1.jpg"
+    image: "/gallery/img-plate-weld-1.jpg?v=2"
   },
   {
     id: 'railings-gates',
@@ -85,7 +85,7 @@ export const services = [
       'Handrails and guard rails to OSHA spec',
       'Decorative fence and ornamental work'
     ],
-    image: "/gallery/img-handrail.jpg"
+    image: "/gallery/img-handrail.jpg?v=2"
   },
   {
     id: 'cutting-drilling',
@@ -96,7 +96,7 @@ export const services = [
       'Precision hole drilling and reaming',
       'On-site modification and fitting'
     ],
-    image: "/gallery/img-damaged-bumper.jpg"
+    image: "/gallery/img-damaged-bumper.jpg?v=2"
   }
 ];
 
