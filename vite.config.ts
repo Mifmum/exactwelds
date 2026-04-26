@@ -5,22 +5,27 @@ import {defineConfig, loadEnv, type PluginOption} from 'vite';
 
 import { cloudflare } from "@cloudflare/vite-plugin";
 
+import { normalizeSiteUrl } from './src/lib/site-url';
+
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
-  const resolvedSiteUrl = process.env.VITE_SITE_URL?.trim() || env.VITE_SITE_URL?.trim();
+  const resolvedSiteUrl = normalizeSiteUrl(process.env.VITE_SITE_URL ?? env.VITE_SITE_URL);
 
   if (mode === 'development' && !resolvedSiteUrl) {
     process.env.VITE_SITE_URL = 'http://localhost:3000';
+  } else if (resolvedSiteUrl) {
+    process.env.VITE_SITE_URL = resolvedSiteUrl;
   }
 
   const siteUrlGuard: PluginOption = {
     name: 'site-url-guard',
     configResolved(config) {
-      const siteUrl = process.env.VITE_SITE_URL?.trim() || loadEnv(config.mode, '.', '').VITE_SITE_URL?.trim();
+      if (config.mode !== 'production') return;
 
-      if (config.mode === 'production' && !siteUrl) {
+      const raw = process.env.VITE_SITE_URL ?? loadEnv(config.mode, '.', '').VITE_SITE_URL;
+      if (!normalizeSiteUrl(raw)) {
         throw new Error(
-          'VITE_SITE_URL is required for production builds; set it in .env.local, .env.production, or your shell environment.',
+          'VITE_SITE_URL must be set to an absolute http(s) URL for production builds (e.g., https://exactwelds.com); set it in .env.local, .env.production, or your shell environment.',
         );
       }
     },

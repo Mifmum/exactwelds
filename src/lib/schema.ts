@@ -2,15 +2,16 @@ import { NAP } from '../content/nap';
 import { services } from '../content/services';
 import { gallery } from '../content/gallery';
 import { faqGroups } from '../content/faq';
+import { normalizeSiteUrl } from './site-url';
 
 export function generateLocalBusinessSchema() {
-  const siteUrl = import.meta.env.VITE_SITE_URL ?? 'http://localhost:3000';
+  const siteUrl = normalizeSiteUrl(import.meta.env.VITE_SITE_URL) ?? 'http://localhost:3000';
 
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": NAP.name,
-    "image": `${siteUrl}/og-image.jpg`,
+    "image": new URL('/og-image.jpg', siteUrl).toString(),
     "telephone": NAP.phoneE164,
     "email": NAP.email,
     "url": siteUrl,
