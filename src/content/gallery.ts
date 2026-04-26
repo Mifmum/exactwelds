@@ -1,21 +1,21 @@
-import imgMarineDock from '../assets/gallery/img-marine-dock.jpg';
-import imgDamagedBumper from '../assets/gallery/img-damaged-bumper.jpg';
-import imgAluminumFabrication from '../assets/gallery/img-aluminum-fabrication.jpg';
-import imgHandrail from '../assets/gallery/img-handrail.jpg';
-import imgTruckBumperRepaired from '../assets/gallery/img-truck-bumper-repaired.jpg';
-import imgPlateWeld1 from '../assets/gallery/img-plate-weld-1.jpg';
-import imgPlateWeld2 from '../assets/gallery/img-plate-weld-2.jpg';
-import imgPropaneRacks from '../assets/gallery/img-propane-racks.jpg';
-import imgSkidSteer from '../assets/gallery/img-skid-steer.jpg';
+import imgWork1 from '../assets/gallery/work-1.jpg';
+import imgWork2 from '../assets/gallery/work-2.jpg';
+import imgWork3 from '../assets/gallery/work-3.jpg';
+import imgWork4 from '../assets/gallery/work-4.jpg';
+import imgWork5 from '../assets/gallery/work-5.jpg';
+import imgWork6 from '../assets/gallery/work-6.jpg';
+import imgWork7 from '../assets/gallery/work-7.jpg';
+import imgWork8 from '../assets/gallery/work-8.jpg';
+import imgWork9 from '../assets/gallery/work-9.jpg';
 
 export const gallery = [
-  { id: '6201', title: 'MARINE PWC PORT & DOCK', category: 'fabrication', material: 'MIXED', descriptor: 'Dock & Mooring', image: imgMarineDock },
-  { id: '6202', title: 'TRUCK BUMPER IMPACT DAMAGE', category: 'trucks', material: 'STEEL', descriptor: 'Assessment & Repair', image: imgDamagedBumper },
-  { id: '6203', title: 'CUSTOM ALUMINUM FABRICATION', category: 'fabrication', material: 'ALUMINUM', descriptor: 'Welded Assembly', image: imgAluminumFabrication },
-  { id: '6204', title: 'INDUSTRIAL SAFETY HANDRAIL', category: 'fabrication', material: 'STEEL', descriptor: 'Guardrail Fabrication', image: imgHandrail },
-  { id: '6205', title: 'SEMI BUMPER STRUCTURAL DAMAGE', category: 'before-after', material: 'STEEL', descriptor: 'Heavy Truck Front End', image: imgTruckBumperRepaired },
-  { id: '6206', title: 'STRUCTURAL PLATE WELD', category: 'fabrication', material: 'STEEL', descriptor: 'Field-Ready Joint', image: imgPlateWeld1 },
-  { id: '6207', title: 'PLATE JOIN — FIELD WELD', category: 'fabrication', material: 'STEEL', descriptor: 'On-Site Fabrication', image: imgPlateWeld2 },
-  { id: '6208', title: 'MOBILE KITCHEN REAR & PROPANE RACKS', category: 'trucks', material: 'STEEL', descriptor: 'Food Truck Fabrication', image: imgPropaneRacks },
-  { id: '6209', title: 'SKID STEER SITE WORK', category: 'equipment', material: 'STEEL', descriptor: 'Equipment & Site Support', image: imgSkidSteer }
+  { id: '6201', title: 'STRUCTURAL METAL REPAIR', category: 'fabrication', material: 'STEEL', descriptor: 'On-Site Welding', image: imgWork1 },
+  { id: '6202', title: 'TRUCK BUMPER REPAIR', category: 'trucks', material: 'STEEL', descriptor: 'Impact Damage', image: imgWork2 },
+  { id: '6203', title: 'CUSTOM ALUMINUM FABRICATION', category: 'fabrication', material: 'ALUMINUM', descriptor: 'Welded Assembly', image: imgWork3 },
+  { id: '6204', title: 'INDUSTRIAL METALWORK', category: 'fabrication', material: 'STEEL', descriptor: 'Structural Guard', image: imgWork4 },
+  { id: '6205', title: 'HEAVY TRUCK FRONT END', category: 'trucks', material: 'STEEL', descriptor: 'Structural Fix', image: imgWork5 },
+  { id: '6206', title: 'STRUCTURAL PLATE WELD', category: 'fabrication', material: 'STEEL', descriptor: 'Field-Ready Joint', image: imgWork6 },
+  { id: '6207', title: 'TRAILER PLATFORM REPAIR', category: 'trailers', material: 'STEEL', descriptor: 'Mobile Service', image: imgWork7 },
+  { id: '6208', title: 'SAFETY HANDRAIL FABRICATION', category: 'fabrication', material: 'STEEL', descriptor: 'Railing Installation', image: imgWork8 },
+  { id: '6209', title: 'HEAVY EQUIPMENT MAINTENANCE', category: 'equipment', material: 'STEEL', descriptor: 'Site Support', image: imgWork9 }
 ];

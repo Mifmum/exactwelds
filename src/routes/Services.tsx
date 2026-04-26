@@ -86,47 +86,33 @@ export function Services() {
         </nav>
 
         {/* Services List Content */}
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-12 py-20 lg:py-32">
+        <div className="max-w-3xl mx-auto px-6 lg:px-12 py-20 lg:py-32">
           <div className="flex flex-col gap-32">
             {services.map((service, index) => {
-              const isEven = index % 2 === 0;
               return (
-                <section key={service.id} id={service.id} className="scroll-mt-32">
-                  <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${!isEven ? 'lg:flex-row-reverse' : ''}`}>
-                    <div className={!isEven ? 'lg:order-2' : ''}>
-                      <h2 className="display-md uppercase mb-6">{service.title}</h2>
-                      <p className="body-base text-on-surface-variant mb-8">
-                        {service.description}
-                      </p>
-                      
-                      <ul className="flex flex-col gap-4 mb-10 bg-surface-container-low p-6 rounded-sm">
+                <section key={service.id} id={service.id} className="scroll-mt-32 relative">
+                  <div className="relative z-10 flex flex-col items-center text-center">
+                    <h2 className="display-md uppercase mb-6">{service.title}</h2>
+                    <p className="body-base text-on-surface-variant mb-8 max-w-2xl text-left sm:text-center">
+                      {service.description}
+                    </p>
+                    
+                    <div className="w-full bg-surface-container-low p-6 sm:p-10 rounded-sm mb-10 shadow-sm border border-outline-variant/30 flex justify-center">
+                      <ul className="flex flex-col gap-4 text-left w-full max-w-lg">
                         {service.bullets.map((bullet, i) => (
-                          <li key={i} className="flex items-start gap-3">
-                            <div className="mt-1 w-5 h-5 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
-                              <Check size={12} className="text-primary" />
+                          <li key={i} className="flex items-start gap-4">
+                            <div className="mt-1 w-6 h-6 bg-primary/20 rounded-full flex items-center justify-center shrink-0">
+                              <Check size={14} className="text-primary" strokeWidth={3} />
                             </div>
                             <span className="body-base text-on-background">{bullet}</span>
                           </li>
                         ))}
                       </ul>
-
-                      <Link to={`/quote?service=${service.id}`} className={buttonVariants({ variant: 'primary' })}>
-                        GET A QUOTE FOR {service.title.split(' ')[0]}
-                      </Link>
                     </div>
 
-                    <div className={!isEven ? 'lg:order-1' : ''}>
-                      <div className="relative group overflow-hidden rounded-sm shadow-card">
-                        <div className="absolute inset-0 bg-primary/10 mix-blend-multiply opacity-50 transition-opacity group-hover:opacity-0 z-10 pointer-events-none"></div>
-                        <img 
-                          src={service.image} 
-                          alt={service.title}
-                          className="w-full h-[400px] lg:h-[600px] object-cover filter contrast-[1.1] saturate-[0.85] brightness-[0.95] transition-all duration-500 group-hover:scale-[1.02] group-hover:saturate-100 group-hover:brightness-100 group-hover:contrast-100 relative z-0"
-                          loading="lazy"
-                          referrerPolicy="no-referrer"
-                        />
-                      </div>
-                    </div>
+                    <Link to={`/quote?service=${service.id}`} className={cn(buttonVariants({ variant: 'primary' }), "w-full sm:w-auto px-10")}>
+                      GET A QUOTE FOR {service.title.split(' ')[0]}
+                    </Link>
                   </div>
                 </section>
               );

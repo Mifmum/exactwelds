@@ -8,8 +8,6 @@ import { buttonVariants } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
 
-import heroImg from '../assets/gallery/hero.jpg';
-
 export function Home() {
   return (
     <>
@@ -21,42 +19,32 @@ export function Home() {
 
       <main className="pb-24 lg:pb-0">
         {/* Hero Section */}
-        <section className="pt-32 pb-20 lg:pt-40 lg:pb-32 px-6 lg:px-12 max-w-[1280px] mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="flex flex-col gap-8">
-              <h1 className="display-xl lg:display-2xl uppercase">
-                <span className="text-on-background block">MOBILE WELDING IN TOLEDO &</span>
-                <span className="text-primary block">NORTHWEST OHIO</span>
-              </h1>
-              <p className="body-lg text-on-surface-variant max-w-xl">
-                Repair, fabrication, and custom work — we bring the shop to you. Professional precision delivered to your site.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/quote" className={buttonVariants({ variant: 'primary' })}>
-                  GET A FREE QUOTE
-                </Link>
-                <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'secondary' })}>
-                  CALL {NAP.phone}
-                </a>
-              </div>
+        <section className="pt-32 pb-20 lg:pt-40 lg:pb-32 px-6 lg:px-12 max-w-[1280px] mx-auto flex flex-col items-center text-center">
+          <div className="flex flex-col items-center gap-8 max-w-3xl">
+            <h1 className="display-xl lg:display-2xl uppercase">
+              <span className="text-on-background block">MOBILE WELDING IN TOLEDO &</span>
+              <span className="text-primary block">NORTHWEST OHIO</span>
+            </h1>
+            <p className="body-lg text-on-surface-variant max-w-xl">
+              Repair, fabrication, and custom work — we bring the shop to you. Professional precision delivered to your site.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link to="/quote" className={buttonVariants({ variant: 'primary' })}>
+                GET A FREE QUOTE
+              </Link>
+              <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'secondary' })}>
+                CALL {NAP.phone}
+              </a>
             </div>
-            <div className="relative">
-              <img 
-                src={heroImg} 
-                alt="Welder working with bright sparks" 
-                className="w-full h-[400px] lg:h-[600px] object-cover rounded-sm"
-                loading="eager"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute -bottom-6 -left-6 lg:bottom-8 lg:-left-12 bg-surface-container-lowest p-6 shadow-raised rounded-sm flex items-center gap-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                  <Truck className="text-primary" size={24} />
-                </div>
-                <div>
-                  <div className="text-label text-on-surface-variant">SERVICE TYPE</div>
-                  <div className="font-sans font-bold text-on-background uppercase tracking-wide">FULLY MOBILE</div>
-                </div>
-              </div>
+          </div>
+          
+          <div className="bg-surface-container py-4 px-6 gap-6 shadow-raised rounded-sm flex items-center mt-16 max-w-fit mx-auto border border-outline-variant/30 text-left">
+            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
+              <Truck className="text-primary" size={24} />
+            </div>
+            <div>
+              <div className="text-label text-on-surface-variant">SERVICE TYPE</div>
+              <div className="font-sans font-bold text-on-background uppercase tracking-wide mt-0.5 whitespace-nowrap">FULLY MOBILE TOLEDO WELDING</div>
             </div>
           </div>
         </section>

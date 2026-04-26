@@ -6,8 +6,6 @@ import { generatePersonSchema } from '../lib/schema';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
 
-import heroImg from '../assets/gallery/hero.jpg';
-
 export function About() {
   return (
     <>
@@ -24,17 +22,6 @@ export function About() {
             <span className="text-on-background">MEET ZACK MILLER – </span>
             <span className="text-primary">OWNER OF EXACT WELDS</span>
           </h1>
-        </section>
-
-        {/* Hero Photo */}
-        <section className="w-full h-[400px] lg:h-[600px]">
-          <img 
-            src={heroImg} 
-            alt="Zack Miller welding" 
-            className="w-full h-full object-cover"
-            loading="eager"
-            referrerPolicy="no-referrer"
-          />
         </section>
 
         {/* Verified Authority */}
@@ -65,7 +52,7 @@ export function About() {
               </Card>
               <Card className="text-center flex flex-col items-center">
                 <FileCheck size={32} className="text-primary mb-6" />
-                <h3 className="display-sm uppercase mb-4">$2M GENERAL LIABILITY</h3>
+                <h3 className="display-sm uppercase mb-4">GENERAL LIABILITY</h3>
                 <p className="body-sm text-on-surface-variant">
                   Full comprehensive insurance for any job site
                 </p>
