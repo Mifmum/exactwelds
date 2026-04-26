@@ -31,9 +31,6 @@ export function Home() {
                 Repair, fabrication, and custom work — we bring the shop to you. Professional precision delivered to your site.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'primary' })}>
-                  GET A FREE QUOTE
-                </a>
                 <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'secondary' })}>
                   CALL {NAP.phone}
                 </a>
@@ -97,18 +94,13 @@ export function Home() {
             READY TO STOP LOOKING AT THAT BROKEN THING IN YOUR GARAGE?
           </h2>
           <p className="body-lg text-on-surface-variant max-w-2xl mx-auto mb-12">
-            Call us now or request a quote online. We'll give you a fair price and a professional finish, right at your doorstep.
+            Call us now. We'll give you a fair price and a professional finish, right at your doorstep.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
-            <a href={`tel:${NAP.phoneE164}`} className={buttonVariants({ variant: 'primary' })}>
-              GET A FREE QUOTE
+          <div className="flex flex-col items-center justify-center gap-2">
+            <span className="text-label text-on-surface-variant">TALK TO A WELDER</span>
+            <a href={`tel:${NAP.phoneE164}`} className="mono-md text-on-background hover:text-primary transition-colors text-3xl lg:text-4xl">
+              {NAP.phone}
             </a>
-            <div className="flex flex-col items-center sm:items-start">
-              <span className="text-label text-on-surface-variant mb-1">TALK TO A WELDER</span>
-              <a href={`tel:${NAP.phoneE164}`} className="mono-md text-on-background hover:text-primary transition-colors text-xl">
-                {NAP.phone}
-              </a>
-            </div>
           </div>
         </section>
       </main>
