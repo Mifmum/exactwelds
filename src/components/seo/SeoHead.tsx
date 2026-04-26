@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { normalizeSiteUrl } from '../../lib/site-url';
 
 interface SeoHeadProps {
   title: string;
@@ -9,12 +10,14 @@ interface SeoHeadProps {
   jsonLd?: object;
 }
 
-export function SeoHead({ 
-  title, 
-  description, 
-  canonical = import.meta.env.VITE_SITE_URL ?? 'http://localhost:3000',
+const defaultCanonical = normalizeSiteUrl(import.meta.env.VITE_SITE_URL) ?? 'http://localhost:3000';
+
+export function SeoHead({
+  title,
+  description,
+  canonical = defaultCanonical,
   ogImage,
-  jsonLd 
+  jsonLd
 }: SeoHeadProps) {
   return (
     <Helmet>
