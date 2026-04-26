@@ -92,7 +92,6 @@ export function Work() {
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
-                    referrerPolicy="no-referrer"
                   />
                   <div className="absolute top-4 right-4">
                     <Tag variant="secondary" className="bg-surface-container-lowest/90 backdrop-blur-sm">
@@ -155,7 +154,6 @@ export function Work() {
                 src={selectedProject.image} 
                 alt={selectedProject.title}
                 className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
               />
             </div>
             
