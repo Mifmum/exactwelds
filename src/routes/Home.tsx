@@ -14,8 +14,8 @@ export function Home() {
   return (
     <>
       <SeoHead 
-        title="Mobile Welder Toledo & NW Ohio | Exact Welds - We Come to You"
-        description="Mobile welding repair and custom fabrication across Toledo and Northwest Ohio. BBB Accredited. Free quotes, flexible payments. Call 567-298-2593."
+        title="Welders Near Me in Toledo & NW Ohio | Exact Welds Mobile Welding"
+        description="Looking for professional welders near me? Exact Welds provides mobile welding repair, custom fabrication, and structural steel services across Toledo, Northwest Ohio. Free quotes, call 567-298-2593."
         jsonLd={generateLocalBusinessSchema()}
       />
 
