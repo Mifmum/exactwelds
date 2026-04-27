@@ -1,12 +1,3 @@
-import imgService01 from '../assets/gallery/img-service-01.webp';
-import imgService02 from '../assets/gallery/img-service-02.webp';
-import heroImg from '../assets/gallery/hero.jpg';
-import imgSkidSteer from '../assets/gallery/img-skid-steer.jpg';
-import imgAluminumFabrication from '../assets/gallery/img-aluminum-fabrication.jpg';
-import imgStainlessSteel from '../assets/gallery/img-stainless-steel.jpg';
-import imgPlateWeld1 from '../assets/gallery/img-plate-weld-1.jpg';
-import imgHandrail from '../assets/gallery/img-handrail.jpg';
-import imgDamagedBumper from '../assets/gallery/img-damaged-bumper.jpg';
 
 export const services = [
   {
@@ -18,7 +9,6 @@ export const services = [
       'On-site heavy equipment bucket and arm crack repair',
       'Fixed structure and agricultural equipment maintenance'
     ],
-    image: imgService01
   },
   {
     id: 'trailer-repair',
@@ -29,7 +19,6 @@ export const services = [
       'Jack, coupler, and safety chain installation',
       'Deck replacement and cross-member reinforcement'
     ],
-    image: imgService02
   },
   {
     id: 'truck-vehicle',
@@ -40,7 +29,6 @@ export const services = [
       'Custom toolbox, rack, and bumper mounts',
       'Rust repair and body panel replacement'
     ],
-    image: heroImg
   },
   {
     id: 'equipment-machinery',
@@ -51,7 +39,6 @@ export const services = [
       'Wear plate and cutting edge replacement',
       'Hydraulic cylinder mount repair'
     ],
-    image: imgSkidSteer
   },
   {
     id: 'aluminum-welding',
@@ -62,18 +49,16 @@ export const services = [
       'Aluminum trailer and utility body work',
       'Custom aluminum bracket fabrication'
     ],
-    image: imgAluminumFabrication
   },
   {
     id: 'stainless-steel',
     title: 'STAINLESS STEEL WELDING',
-    description: 'Sanitary, food-grade, and architectural stainless welding for code-compliant results. Suitable for commercial kitchens, railings, and pipeline work.',
+    description: 'Sanitary, food-grade, and architectural stainless welding with back-purged TIG for code-compliant results. Suitable for commercial kitchens, railings, and pipeline work.',
     bullets: [
       'Food-grade pipeline and tank welding',
       'Architectural railings and guards',
       'Chemical-resistant enclosures'
     ],
-    image: imgStainlessSteel
   },
   {
     id: 'custom-fabrication',
@@ -84,7 +69,6 @@ export const services = [
       'Specialized industrial tooling and workstations',
       'Marine-grade components and mounting solutions'
     ],
-    image: imgPlateWeld1
   },
   {
     id: 'railings-gates',
@@ -95,7 +79,6 @@ export const services = [
       'Handrails and guard rails to OSHA spec',
       'Decorative fence and ornamental work'
     ],
-    image: imgHandrail
   },
   {
     id: 'cutting-drilling',
@@ -106,6 +89,7 @@ export const services = [
       'Precision hole drilling and reaming',
       'On-site modification and fitting'
     ],
-    image: imgDamagedBumper
   }
 ];
+
+// Sync services

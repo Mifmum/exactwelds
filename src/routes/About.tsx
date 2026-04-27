@@ -6,6 +6,7 @@ import { generatePersonSchema } from '../lib/schema';
 import { Card } from '../components/ui/Card';
 import { NAP } from '../content/nap';
 
+
 export function About() {
   return (
     <>
@@ -52,7 +53,7 @@ export function About() {
               </Card>
               <Card className="text-center flex flex-col items-center">
                 <FileCheck size={32} className="text-primary mb-6" />
-                <h3 className="display-sm uppercase mb-4">GENERAL LIABILITY</h3>
+                <h3 className="display-sm uppercase mb-4">$2M GENERAL LIABILITY</h3>
                 <p className="body-sm text-on-surface-variant">
                   Full comprehensive insurance for any job site
                 </p>
@@ -169,6 +170,7 @@ export function About() {
           </div>
         </section>
       </main>
+// Final sync trigger 6
     </>
   );
 }

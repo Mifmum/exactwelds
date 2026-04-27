@@ -1,6 +1,5 @@
 import { NAP } from '../content/nap';
 import { services } from '../content/services';
-import { gallery } from '../content/gallery';
 import { faqGroups } from '../content/faq';
 
 export function generateLocalBusinessSchema() {
@@ -8,7 +7,6 @@ export function generateLocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": NAP.name,
-    "image": `https://exactwelds.com/gallery/hero.jpg`,
     "telephone": NAP.phoneE164,
     "email": NAP.email,
     "url": "https://exactwelds.com",
@@ -90,18 +88,3 @@ export function generateFaqSchema() {
   };
 }
 
-export function generateWorkSchema() {
-  return {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "itemListElement": gallery.map((project, index) => ({
-      "@type": "ListItem",
-      "position": index + 1,
-      "item": {
-        "@type": "CreativeWork",
-        "name": project.title,
-        "description": project.descriptor
-      }
-    }))
-  };
-}

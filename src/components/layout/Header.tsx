@@ -7,7 +7,6 @@ import { buttonVariants } from '../ui/Button';
 const navLinks = [
   { name: 'HOME', path: '/' },
   { name: 'SERVICES', path: '/services' },
-  { name: 'WORK', path: '/work' },
   { name: 'ABOUT', path: '/about' },
   { name: 'REVIEWS', path: '/reviews' },
   { name: 'FAQ', path: '/faq' },

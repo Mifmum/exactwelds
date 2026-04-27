@@ -4,7 +4,7 @@ export const faqGroups = [
     items: [
       {
         question: 'What welding processes does Exact Welds specialize in?',
-        answer: 'Exact Welds provides technical expertise in MIG (GMAW) and Stick (SMAW) welding. Our primary focus is on precision aluminum, stainless steel, and high-carbon steel fabrications for industrial clients in the greater Toledo region.'
+        answer: 'Exact Welds provides technical expertise in TIG (GTAW), MIG (GMAW), and Stick (SMAW) welding. Our primary focus is on precision aluminum, stainless steel, and high-carbon steel fabrications for industrial clients in the greater Toledo region.'
       },
       {
         question: 'Are you AWS certified for structural work?',
@@ -13,10 +13,6 @@ export const faqGroups = [
       {
         question: 'Can you handle mobile or on-site welding projects?',
         answer: 'Absolutely. Exact Welds maintains a fully equipped mobile welding unit capable of field repairs and on-site installations across Toledo and the surrounding industrial parks.'
-      },
-      {
-        question: 'Do you work with rare or exotic alloys?',
-        answer: 'Yes, on a case-by-case basis. Contact the Exact Welds shop in Toledo with your material specification sheet and we\'ll confirm capability before scheduling.'
       },
       {
         question: 'Can you weld aluminum and stainless on-site?',
@@ -42,6 +38,10 @@ export const faqGroups = [
       {
         question: 'Do you offer emergency repair pricing?',
         answer: 'Yes. Emergency welding in Toledo and the surrounding industrial parks is quoted on a priority basis with a same-day response fee.'
+      },
+      {
+        question: 'Do you offer financing or payment plans?',
+        answer: 'Yes. Exact Welds works with local financing partners for qualifying projects across Northwest Ohio. Ask for details when requesting your quote.'
       }
     ]
   }

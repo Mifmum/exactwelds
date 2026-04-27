@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useEffect } from 'react'; // force update 3
+import React, { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
@@ -12,7 +12,6 @@ import { MobileCtaBar } from './components/layout/MobileCtaBar';
 // Routes
 import { Home } from './routes/Home';
 import { Services } from './routes/Services';
-import { Work } from './routes/Work';
 import { About } from './routes/About';
 import { Reviews } from './routes/Reviews';
 import { Faq } from './routes/Faq';
@@ -40,7 +39,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/faq" element={<Faq />} />
