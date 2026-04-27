@@ -89,7 +89,7 @@ export function Faq() {
                     <div className="text-label text-primary mb-4">COVERAGE</div>
                     <h3 className="display-sm uppercase mb-4">WHAT IS YOUR PRIMARY SERVICE RADIUS?</h3>
                     <p className="body-base text-on-surface-variant">
-                      Exact Welds is based in Toledo, OH. Our primary service radius covers 50 miles, including Maumee, Perrysburg, Oregon, and Sylvania.
+                      Exact Welds is based in Toledo, OH. Our primary service radius covers 50+ miles, including Maumee, Perrysburg, Oregon, and Sylvania.
                     </p>
                   </Card>
                   <Card className="bg-surface-container-low border-none shadow-none">
