@@ -10,8 +10,8 @@ export function Quote() {
   return (
     <>
       <SeoHead 
-        title="Get a Free Welding Quote | Exact Welds Toledo"
-        description="Request a free mobile welding quote in Toledo or Northwest Ohio. Most quotes returned within 24 hours. Photos get faster estimates."
+        title="Request a Free Welding Quote | Structural Repair & Custom Fabrication | Exact Welds Toledo"
+        description="Get a free quote for structural repair, custom fabrication, or mobile welding services in Toledo, OH. Expert mobile welders available. Fast responses."
       />
 
       <main className="pb-24 lg:pb-0 pt-[72px] bg-surface-container-low min-h-screen">

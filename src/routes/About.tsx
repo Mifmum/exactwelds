@@ -11,8 +11,8 @@ export function About() {
   return (
     <>
       <SeoHead 
-        title="About Exact Welds - Toledo Mobile Welder | Owner-Operated"
-        description="Exact Welds is an owner-operated mobile welding service in Northwest Ohio. BBB Accredited, fully insured, years of hands-on experience. Meet Zack."
+        title="About Exact Welds | Expert Mobile Welder in Toledo, OH | Structural Repair & Fabrication"
+        description="Learn about Zack Miller, owner of Exact Welds, your expert mobile welder in Toledo, OH. Specializing in structural repair, custom fabrication, and certified mobile welding across Northwest Ohio."
         jsonLd={generatePersonSchema()}
       />
 

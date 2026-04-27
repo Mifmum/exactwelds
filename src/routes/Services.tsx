@@ -27,8 +27,8 @@ export function Services() {
   return (
     <>
       <SeoHead 
-        title="Welding Services - Trailer, Aluminum, Stainless, Fabrication | Exact Welds"
-        description="Mobile welding services in Toledo OH: trailer repair, aluminum and stainless welding, custom fabrication, truck body repair, and more. Get a free quote."
+        title="Expert Mobile Welding Services in Toledo | Structural Repair & Custom Fabrication | Exact Welds"
+        description="Exact Welds provides expert mobile welding services in Toledo, OH. Specializing in structural repair, custom fabrication, trailer repair, and more. Certified metal work in Northwest Ohio."
         jsonLd={generateServicesSchema()}
       />
 

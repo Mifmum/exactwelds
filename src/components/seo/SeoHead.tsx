@@ -20,7 +20,7 @@ export function SeoHead({
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta name="keywords" content="mobile welding, welder near me, Toledo welding, structural repair, fabrication, Northwest Ohio" />
+      <meta name="keywords" content="mobile welding service, welder near me, Toledo welding, structural repair, fabrication, Northwest Ohio, Maumee welding, Perrysburg mobile welder, agricultural equipment repair, trailer welding repair, stainless steel welding Toledo, aluminum welding services, fix broken metal, welding repair, mobile welder, welding service near me, welders for hire, metal repair service" />
       
       <link rel="canonical" href={canonical} />
       

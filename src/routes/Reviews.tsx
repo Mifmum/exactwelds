@@ -9,8 +9,8 @@ export function Reviews() {
   return (
     <>
       <SeoHead 
-        title="Reviews - BBB Accredited Welder | Exact Welds Toledo"
-        description="Exact Welds is BBB Accredited in Toledo, Ohio. Read verified feedback from homeowners and businesses across Northwest Ohio."
+        title="Verified Welding Reviews: Structural Repair & Fabrication | Exact Welds Toledo"
+        description="Read verified customer reviews for Exact Welds in Toledo, OH. Expert mobile welder providing structural repair, custom fabrication, and certified mobile welding services in Northwest Ohio."
         jsonLd={generateLocalBusinessSchema()} // Could add aggregateRating here later
       />
 

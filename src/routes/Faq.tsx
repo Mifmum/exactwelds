@@ -12,8 +12,8 @@ export function Faq() {
   return (
     <>
       <SeoHead 
-        title="FAQ - Mobile Welding Questions | Exact Welds Toledo"
-        description="Common questions about mobile welding in Toledo: service area, pricing, certifications, emergency response, and more. Answered by Exact Welds."
+        title="Welding FAQ - Expert Mobile Welder Toledo | Structural Repair & Custom Fabrication"
+        description="Frequently asked questions answered by expert mobile welders at Exact Welds, Toledo. Info on structural repair, custom fabrication, service areas, and mobile welding services in Northwest Ohio."
         jsonLd={generateFaqSchema()}
       />
 
